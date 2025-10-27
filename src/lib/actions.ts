@@ -22,7 +22,9 @@ export async function sendContactEmail(formData: { name: string; email: string; 
   const { name, email, message } = parsed.data;
   
   const transporter = nodemailer.createTransport({
-    service: 'gmail',
+    host: "smtp.gmail.com",
+    port: 465,
+    secure: true, // use SSL
     auth: {
       user: process.env.EMAIL_USER,
       pass: process.env.EMAIL_PASS,
