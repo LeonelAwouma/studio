@@ -27,7 +27,7 @@ export default function Hero() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-8">
               <Button asChild size="lg">
-                <a href="/Leonel_AWOUMA_CV.pdf" download>
+                <a href="/docs/CV_LEONEL_AWOUMA.pdf" download>
                   <Download className="mr-2 h-5 w-5" />
                   Download CV
                 </a>
