@@ -2,6 +2,9 @@
 
 import { z } from "zod";
 import nodemailer from "nodemailer";
+import { config } from 'dotenv';
+
+config();
 
 const formSchema = z.object({
   name: z.string().min(2),
