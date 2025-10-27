@@ -1,6 +1,7 @@
 "use server";
 
 import { z } from "zod";
+import nodemailer from "nodemailer";
 
 const formSchema = z.object({
   name: z.string().min(2),
@@ -15,20 +16,28 @@ export async function sendContactEmail(formData: { name: string; email: string; 
     return { success: false, error: "Invalid form data." };
   }
 
-  // Here you would typically integrate with an email sending service
-  // like Firebase Extensions (Trigger Email) or a third-party API.
-  // For this example, we'll just log the data and simulate success.
+  const { name, email, message } = parsed.data;
   
-  console.log("Received contact form submission:");
-  console.log("Name:", parsed.data.name);
-  console.log("Email:", parsed.data.email);
-  console.log("Message:", parsed.data.message);
+  const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: process.env.EMAIL_USER,
+      pass: process.env.EMAIL_PASS,
+    },
+  });
 
-  // Simulate a network delay
-  await new Promise(resolve => setTimeout(resolve, 1000));
+  const mailOptions = {
+    from: email,
+    to: 'leonelawouma65@gmail.com',
+    subject: `New message from ${name} via your portfolio`,
+    text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
+  };
 
-  // In a real application, you would handle potential errors from the
-  // email service here and return { success: false, error: '...' }.
-  
-  return { success: true };
+  try {
+    await transporter.sendMail(mailOptions);
+    return { success: true };
+  } catch (error: any) {
+    console.error("Failed to send email:", error);
+    return { success: false, error: "Failed to send the message. Please try again later." };
+  }
 }
