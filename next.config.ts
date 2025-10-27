@@ -36,14 +36,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  async rewrites() {
-    return [
-      {
-        source: '/CV_LEONEL_AWOUMA.pdf',
-        destination: '/CV_LEONEL_AWOUMA.pdf',
-      },
-    ];
-  },
 };
 
 export default nextConfig;
