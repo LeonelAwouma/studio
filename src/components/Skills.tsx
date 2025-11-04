@@ -38,19 +38,18 @@ export default function Skills() {
   return (
     <section id="skills">
       <div className="container">
-        <h2 className="text-3xl font-headline font-bold text-center mb-12 text-primary">Technical Skills</h2>
+        <h2 className="text-3xl font-headline font-bold text-center mb-16 animated-gradient-text">Technical Skills</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {skillCategories.map((category, index) => (
-            <Card key={index} className="bg-card/80 backdrop-blur-sm border-border/50 transition-all duration-300 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10">
-              <CardHeader className="flex flex-row items-center gap-4">
-                {category.icon}
+            <Card key={index} className="bg-card/50 backdrop-blur-sm border-border/20 transition-all duration-300 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10 hover:-translate-y-2">
+              <CardHeader className="flex flex-row items-center gap-4 pb-4">
+                <div className="p-3 bg-primary/10 rounded-full">{category.icon}</div>
                 <CardTitle className="font-headline text-xl text-foreground">{category.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <ul className="space-y-2">
+                <ul className="flex flex-wrap gap-2">
                   {category.skills.map((skill, skillIndex) => (
-                    <li key={skillIndex} className="text-muted-foreground flex items-center">
-                      <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
+                     <li key={skillIndex} className="text-sm font-medium text-muted-foreground bg-secondary px-3 py-1 rounded-full">
                       {skill}
                     </li>
                   ))}

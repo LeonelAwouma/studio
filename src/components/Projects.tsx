@@ -2,6 +2,7 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle, CardDescription }
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import { placeholderImages } from "@/lib/placeholder-images";
+import { ArrowRight } from "lucide-react";
 
 const projects = [
   {
@@ -28,18 +29,19 @@ export default function Projects() {
   return (
     <section id="projects">
       <div className="container">
-        <h2 className="text-3xl font-headline font-bold text-center mb-12 text-primary">Projects</h2>
+        <h2 className="text-3xl font-headline font-bold text-center mb-16 animated-gradient-text">My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <Card key={index} className="flex flex-col overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-primary/20 shadow-lg">
+            <Card key={index} className="flex flex-col overflow-hidden group border-border/20 transition-all duration-300 hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/10">
               {project.image && (
-                <div className="relative h-48 w-full">
+                <div className="relative h-56 w-full overflow-hidden">
                   <Image
                     src={project.image.imageUrl}
                     alt={project.image.description}
                     data-ai-hint={project.image.imageHint}
                     fill
                     style={{objectFit: 'cover'}}
+                    className="transition-transform duration-500 group-hover:scale-110"
                   />
                 </div>
               )}
@@ -49,8 +51,8 @@ export default function Projects() {
               <CardContent className="flex-grow">
                 <CardDescription>{project.description}</CardDescription>
               </CardContent>
-              <CardFooter>
-                <div className="flex flex-wrap gap-2">
+              <CardFooter className="flex-wrap">
+                <div className="flex flex-wrap gap-2 w-full">
                   {project.tags.map((tag, tagIndex) => (
                     <Badge key={tagIndex} variant="secondary">{tag}</Badge>
                   ))}

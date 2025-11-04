@@ -14,18 +14,19 @@ const profileImage = placeholderImages.find(p => p.id === 'profile');
 
 export default function Hero() {
   return (
-    <section id="home" className="py-24 sm:py-32 md:py-40">
+    <section id="home" className="relative overflow-hidden py-24 sm:py-32 md:py-40">
+      <div className="absolute inset-0 -z-10 bg-[radial-gradient(40%_100%_at_50%_0%,hsl(var(--primary)/0.1),transparent)]"></div>
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="text-center md:text-left">
-            <span className="text-primary font-semibold">System & Network Administrator</span>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-headline font-extrabold mt-2 mb-4 leading-tight">
-              Leonel AWOUMA
+            <span className="font-bold uppercase tracking-wider text-primary">System & Network Administrator</span>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-headline font-extrabold mt-4 mb-6 leading-tight">
+              Leonel <span className="animated-gradient-text">AWOUMA</span>
             </h1>
-            <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto md:mx-0 mb-8">
+            <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto md:mx-0 mb-10">
               I design, secure, and optimize IT systems with a focus on performance, reliability, and user empowerment.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-8">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-10">
               <Button asChild size="lg">
                 <a href="/CV_LEONEL_AWOUMA.pdf" download>
                   <Download className="mr-2 h-5 w-5" />
@@ -56,15 +57,19 @@ export default function Hero() {
           </div>
           <div className="flex justify-center">
             {profileImage && (
-              <div className="relative w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden shadow-2xl border-4 border-primary/50">
-                <Image
-                  src={profileImage.imageUrl}
-                  alt={profileImage.description}
-                  data-ai-hint={profileImage.imageHint}
-                  fill
-                  style={{ objectFit: 'cover' }}
-                  priority
-                />
+              <div className="relative w-64 h-64 sm:w-80 sm:h-80 group">
+                 <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary to-accent opacity-60 blur-2xl group-hover:opacity-80 transition-opacity duration-500"></div>
+                <div className="relative w-full h-full rounded-full overflow-hidden shadow-2xl border-4 border-primary/20 glow-shadow">
+                  <Image
+                    src={profileImage.imageUrl}
+                    alt={profileImage.description}
+                    data-ai-hint={profileImage.imageHint}
+                    fill
+                    style={{ objectFit: 'cover' }}
+                    priority
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  />
+                </div>
               </div>
             )}
           </div>

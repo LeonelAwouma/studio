@@ -55,25 +55,43 @@ export default function Experience() {
   return (
     <section id="experience" className="bg-secondary">
       <div className="container">
-        <h2 className="text-3xl font-headline font-bold text-center mb-12 text-primary">Experience</h2>
-        <div className="relative max-w-2xl mx-auto">
-          <div className="absolute left-1/2 top-0 bottom-0 w-0.5 bg-border -translate-x-1/2"></div>
+        <h2 className="text-3xl font-headline font-bold text-center mb-16 animated-gradient-text">Work Experience</h2>
+        <div className="relative max-w-3xl mx-auto">
+          <div className="absolute left-1/2 top-0 h-full w-px bg-border -translate-x-1/2"></div>
           {experienceItems.map((item, index) => (
-            <div key={index} className={`relative mb-12 flex items-center ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}>
-              <div className={`w-5/12 ${index % 2 === 0 ? 'pr-8 text-right' : 'pl-8 text-left'}`}>
-                <div className="p-6 bg-card rounded-lg shadow-lg border border-border/50">
-                  <div className="flex items-center gap-2 mb-2">
-                    <Briefcase className="w-5 h-5 text-accent" />
+            <div key={index} className={`relative mb-12 flex items-center w-full ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}>
+              <div className="hidden md:block w-1/2"></div>
+              <div className="hidden md:block w-1/2">
+                <div className="p-6 bg-card rounded-lg shadow-lg border border-border/20 group">
+                  <div className="flex items-center gap-3 mb-2">
+                    <Briefcase className="w-6 h-6 text-accent" />
                     <h3 className="text-xl font-bold text-foreground">{item.title}</h3>
                   </div>
-                  <div className="flex items-center gap-2 mb-4 text-muted-foreground">
+                  <div className="flex items-center gap-2 mb-4 text-muted-foreground text-sm">
                     <Calendar className="w-4 h-4" />
                     <p>{item.date}</p>
                   </div>
-                  <p className="text-foreground/90 mb-4">{item.description}</p>
-                  <Button variant="outline" size="sm" onClick={() => handleGenerateInsight(item.description)}>
+                  <p className="text-foreground/80 mb-4">{item.description}</p>
+                  <Button variant="ghost" size="sm" onClick={() => handleGenerateInsight(item.description)} className="text-primary hover:text-primary -ml-2">
                     <Sparkles className="w-4 h-4 mr-2" />
-                    AI Insights
+                    Generate AI Insights
+                  </Button>
+                </div>
+              </div>
+              <div className="block md:hidden w-full">
+                <div className="p-6 bg-card rounded-lg shadow-lg border border-border/20 group">
+                  <div className="flex items-center gap-3 mb-2">
+                    <Briefcase className="w-6 h-6 text-accent" />
+                    <h3 className="text-xl font-bold text-foreground">{item.title}</h3>
+                  </div>
+                  <div className="flex items-center gap-2 mb-4 text-muted-foreground text-sm">
+                    <Calendar className="w-4 h-4" />
+                    <p>{item.date}</p>
+                  </div>
+                  <p className="text-foreground/80 mb-4">{item.description}</p>
+                  <Button variant="ghost" size="sm" onClick={() => handleGenerateInsight(item.description)} className="text-primary hover:text-primary -ml-2">
+                    <Sparkles className="w-4 h-4 mr-2" />
+                    Generate AI Insights
                   </Button>
                 </div>
               </div>
@@ -83,24 +101,24 @@ export default function Experience() {
         </div>
       </div>
       <Dialog open={insight.isOpen} onOpenChange={(isOpen) => setInsight(prev => ({ ...prev, isOpen }))}>
-        <DialogContent>
+        <DialogContent className="sm:max-w-2xl">
           <DialogHeader>
-            <DialogTitle className="flex items-center gap-2 text-primary">
-              <Sparkles className="w-5 h-5" />
+            <DialogTitle className="flex items-center gap-2 text-2xl animated-gradient-text">
+              <Sparkles className="w-6 h-6 text-primary" />
               AI-Powered Insights
             </DialogTitle>
             <DialogDescription>
               Summary of strengths and potential future applications based on the experience.
             </DialogDescription>
           </DialogHeader>
-          <div className="py-4">
+          <div className="py-4 min-h-[200px] flex items-center justify-center">
             {insight.loading ? (
-              <div className="flex items-center justify-center gap-2">
-                <Loader2 className="w-6 h-6 animate-spin text-primary" />
-                <p>Generating insights...</p>
+              <div className="flex items-center justify-center gap-3">
+                <Loader2 className="w-8 h-8 animate-spin text-primary" />
+                <p className="text-lg text-muted-foreground">Generating insights...</p>
               </div>
             ) : (
-              <p className="text-foreground/90 whitespace-pre-wrap">{insight.data}</p>
+              <p className="text-foreground/90 whitespace-pre-wrap leading-relaxed">{insight.data}</p>
             )}
           </div>
         </DialogContent>
