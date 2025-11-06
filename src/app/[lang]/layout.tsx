@@ -37,7 +37,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} className={`${inter.variable} ${poppins.variable} dark`}>
       <body className={cn('font-body antialiased')}>
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
           <Toaster />
         </NextIntlClientProvider>
