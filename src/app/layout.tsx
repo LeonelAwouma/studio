@@ -1,38 +1,9 @@
-import type { Metadata } from 'next';
-import './globals.css';
-import { Toaster } from "@/components/ui/toaster";
-import { cn } from '@/lib/utils';
-import { Inter, Poppins } from 'next/font/google';
-
-const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-inter',
-});
-
-const poppins = Poppins({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700', '800'],
-  display: 'swap',
-  variable: '--font-poppins',
-});
-
-export const metadata: Metadata = {
-  title: 'Leonel AWOUMA - IT Systems Portfolio',
-  description: 'I design, secure, and optimize IT systems with a focus on performance, reliability, and user empowerment.',
-};
-
+// This file is no longer needed as we are using the [lang] directory for i18n.
+// You can delete this file.
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en" className={`${inter.variable} ${poppins.variable} dark`}>
-      <body className={cn('font-body antialiased')}>
-        {children}
-        <Toaster />
-      </body>
-    </html>
-  );
+}) {
+  return children;
 }
