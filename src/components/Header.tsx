@@ -1,4 +1,3 @@
-
 "use client";
 
 import Link from "next/link";
@@ -6,17 +5,20 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, Code } from "lucide-react";
 import { useState } from "react";
-
-const navLinks = [
-  { href: "#about", label: "About" },
-  { href: "#skills", label: "Skills" },
-  { href: "#experience", label: "Experience" },
-  { href: "#projects", label: "Projects" },
-  { href: "#contact", label: "Contact" },
-];
+import { useTranslations } from "next-intl";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 export default function Header() {
+  const t = useTranslations('Header');
   const [isSheetOpen, setSheetOpen] = useState(false);
+
+  const navLinks = [
+    { href: "#about", label: t('nav.about') },
+    { href: "#skills", label: t('nav.skills') },
+    { href: "#experience", label: t('nav.experience') },
+    { href: "#projects", label: t('nav.projects') },
+    { href: "#contact", label: t('nav.contact') },
+  ];
 
   const handleLinkClick = () => {
     setSheetOpen(false);
@@ -40,20 +42,21 @@ export default function Header() {
             </Link>
           ))}
         </nav>
-        <div className="flex flex-1 items-center justify-end">
+        <div className="flex flex-1 items-center justify-end gap-2">
+          <LocaleSwitcher />
           <Button asChild className="hidden md:flex">
-            <a href="/CV_LEONEL_AWOUMA.pdf" download>Download CV</a>
+            <a href="/CV_LEONEL_AWOUMA.pdf" download>{t('downloadCV')}</a>
           </Button>
           <Sheet open={isSheetOpen} onOpenChange={setSheetOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" className="md:hidden">
                 <Menu className="h-6 w-6" />
-                <span className="sr-only">Toggle navigation menu</span>
+                <span className="sr-only">{t('toggleMenu')}</span>
               </Button>
             </SheetTrigger>
             <SheetContent side="left">
-              <SheetHeader className="sr-only">
-                <SheetTitle>Navigation Menu</SheetTitle>
+              <SheetHeader>
+                <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
               </SheetHeader>
               <nav className="grid gap-6 text-lg font-medium mt-8">
                 <Link
@@ -75,7 +78,7 @@ export default function Header() {
                   </Link>
                 ))}
                  <Button asChild className="mt-4">
-                  <a href="/CV_LEONEL_AWOUMA.pdf" download>Download CV</a>
+                  <a href="/CV_LEONEL_AWOUMA.pdf" download>{t('downloadCV')}</a>
                 </Button>
               </nav>
             </SheetContent>

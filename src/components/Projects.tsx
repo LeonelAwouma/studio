@@ -3,33 +3,35 @@ import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import { placeholderImages } from "@/lib/placeholder-images";
 import { ArrowRight } from "lucide-react";
-
-const projects = [
-  {
-    title: "AI-Powered Network Chatbot",
-    description: "Integrates Zabbix with WhatsApp for real-time monitoring and incident response.",
-    tags: ["AI", "Automation", "Network Monitoring"],
-    image: placeholderImages.find(p => p.id === 'project-1')
-  },
-  {
-    title: "Secure Network Access Control",
-    description: "AAA + 802.1X authentication implementation for controlled and logged network access.",
-    tags: ["Security", "Access Control", "Linux Server"],
-    image: placeholderImages.find(p => p.id === 'project-2')
-  },
-  {
-    title: "Cloud Infrastructure Orchestration",
-    description: "Automated deployment and management of virtualized environments using cloud-native tools.",
-    tags: ["Cloud", "IaC", "Proxmox"],
-    image: placeholderImages.find(p => p.id === 'project-3')
-  }
-];
+import { useTranslations } from "next-intl";
 
 export default function Projects() {
+  const t = useTranslations('Projects');
+  const projects = [
+    {
+      title: t('items.0.title'),
+      description: t('items.0.description'),
+      tags: t.raw('items.0.tags'),
+      image: placeholderImages.find(p => p.id === 'project-1')
+    },
+    {
+      title: t('items.1.title'),
+      description: t('items.1.description'),
+      tags: t.raw('items.1.tags'),
+      image: placeholderImages.find(p => p.id === 'project-2')
+    },
+    {
+      title: t('items.2.title'),
+      description: t('items.2.description'),
+      tags: t.raw('items.2.tags'),
+      image: placeholderImages.find(p => p.id === 'project-3')
+    }
+  ];
+
   return (
     <section id="projects">
       <div className="container">
-        <h2 className="text-3xl font-headline font-bold text-center mb-16 animated-gradient-text">My Projects</h2>
+        <h2 className="text-3xl font-headline font-bold text-center mb-16 animated-gradient-text">{t('title')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <Card key={index} className="flex flex-col overflow-hidden group border-border/20 transition-all duration-300 hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/10">
@@ -53,7 +55,7 @@ export default function Projects() {
               </CardContent>
               <CardFooter className="flex-wrap">
                 <div className="flex flex-wrap gap-2 w-full">
-                  {project.tags.map((tag, tagIndex) => (
+                  {project.tags.map((tag: string, tagIndex: number) => (
                     <Badge key={tagIndex} variant="secondary">{tag}</Badge>
                   ))}
                 </div>

@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
-import './globals.css';
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
+import '../globals.css';
 import { Toaster } from "@/components/ui/toaster";
 import { cn } from '@/lib/utils';
 import { Inter, Poppins } from 'next/font/google';
@@ -17,21 +19,28 @@ const poppins = Poppins({
   variable: '--font-poppins',
 });
 
+
 export const metadata: Metadata = {
   title: 'Leonel AWOUMA - IT Systems Portfolio',
   description: 'I design, secure, and optimize IT systems with a focus on performance, reliability, and user empowerment.',
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
-}: Readonly<{
+  params: {locale}
+}: {
   children: React.ReactNode;
-}>) {
+  params: {locale: string};
+}) {
+  const messages = await getMessages();
+
   return (
-    <html lang="en" className={`${inter.variable} ${poppins.variable} dark`}>
+    <html lang={locale} className={`${inter.variable} ${poppins.variable} dark`}>
       <body className={cn('font-body antialiased')}>
-        {children}
-        <Toaster />
+        <NextIntlClientProvider messages={messages}>
+          {children}
+          <Toaster />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

@@ -18,6 +18,7 @@ import { useToast } from "@/hooks/use-toast";
 import { sendContactEmail } from "@/lib/actions";
 import { useState } from "react";
 import { Loader2 } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -32,6 +33,7 @@ const formSchema = z.object({
 });
 
 export function ContactForm() {
+  const t = useTranslations('ContactForm');
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
 
@@ -51,15 +53,15 @@ export function ContactForm() {
 
     if (result.success) {
       toast({
-        title: "Message Sent!",
-        description: "Thanks for reaching out! I’ll reply as soon as possible.",
+        title: t('toast.success.title'),
+        description: t('toast.success.description'),
       });
       form.reset();
     } else {
       toast({
         variant: "destructive",
-        title: "Uh oh! Something went wrong.",
-        description: result.error || "There was a problem with your request.",
+        title: t('toast.error.title'),
+        description: result.error || t('toast.error.description'),
       });
     }
   }
@@ -72,9 +74,9 @@ export function ContactForm() {
           name="name"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Name</FormLabel>
+              <FormLabel>{t('name.label')}</FormLabel>
               <FormControl>
-                <Input placeholder="Your Name" {...field} />
+                <Input placeholder={t('name.placeholder')} {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -85,9 +87,9 @@ export function ContactForm() {
           name="email"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Email</FormLabel>
+              <FormLabel>{t('email.label')}</FormLabel>
               <FormControl>
-                <Input placeholder="your.email@example.com" {...field} />
+                <Input placeholder={t('email.placeholder')} {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -98,9 +100,9 @@ export function ContactForm() {
           name="message"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Message</FormLabel>
+              <FormLabel>{t('message.label')}</FormLabel>
               <FormControl>
-                <Textarea placeholder="Tell me how I can help" {...field} rows={5}/>
+                <Textarea placeholder={t('message.placeholder')} {...field} rows={5}/>
               </FormControl>
               <FormMessage />
             </FormItem>
@@ -108,7 +110,7 @@ export function ContactForm() {
         />
         <Button type="submit" className="w-full" disabled={isSubmitting}>
           {isSubmitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
-          {isSubmitting ? "Sending..." : "Send Message"}
+          {isSubmitting ? t('sending') : t('sendMessage')}
         </Button>
       </form>
     </Form>

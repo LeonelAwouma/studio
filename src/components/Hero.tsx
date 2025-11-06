@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Download, Send, Github, Linkedin, Mail } from 'lucide-react';
 import { placeholderImages } from "@/lib/placeholder-images";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const socialLinks = [
   { name: 'GitHub', href: 'https://github.com/LeonelAwouma', icon: Github },
@@ -13,30 +14,31 @@ const socialLinks = [
 const profileImage = placeholderImages.find(p => p.id === 'profile');
 
 export default function Hero() {
+  const t = useTranslations('Hero');
   return (
     <section id="home" className="relative overflow-hidden py-24 sm:py-32 md:py-40">
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(40%_100%_at_50%_0%,hsl(var(--primary)/0.1),transparent)]"></div>
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="text-center md:text-left">
-            <span className="font-bold uppercase tracking-wider text-primary">System & Network Administrator</span>
+            <span className="font-bold uppercase tracking-wider text-primary">{t('role')}</span>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-headline font-extrabold mt-4 mb-6 leading-tight">
               Leonel <span className="animated-gradient-text">AWOUMA</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto md:mx-0 mb-10">
-              I design, secure, and optimize IT systems with a focus on performance, reliability, and user empowerment.
+              {t('description')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-10">
               <Button asChild size="lg">
                 <a href="/CV_LEONEL_AWOUMA.pdf" download>
                   <Download className="mr-2 h-5 w-5" />
-                  Download CV
+                  {t('downloadCV')}
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg">
                 <Link href="#contact">
                   <Send className="mr-2 h-5 w-5" />
-                  Contact Me
+                  {t('contactMe')}
                 </Link>
               </Button>
             </div>

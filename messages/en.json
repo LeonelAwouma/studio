@@ -1,0 +1,195 @@
+
+{
+  "Header": {
+    "nav": {
+      "about": "About",
+      "skills": "Skills",
+      "experience": "Experience",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "downloadCV": "Download CV",
+    "toggleMenu": "Toggle navigation menu"
+  },
+  "Hero": {
+    "role": "System & Network Administrator",
+    "description": "I design, secure, and optimize IT systems with a focus on performance, reliability, and user empowerment.",
+    "downloadCV": "Download CV",
+    "contactMe": "Contact Me"
+  },
+  "About": {
+    "title": "About Me",
+    "description": "As a dedicated System and Network Administrator, I focus on reliability, performance, and cybersecurity awareness. I value responsiveness and precision in minimizing downtime and ensuring business continuity."
+  },
+  "Skills": {
+    "title": "Technical Skills",
+    "categories": [
+      {
+        "title": "Networking & Security",
+        "icon": "Networking",
+        "skills": ["TCP/IP", "VPN", "VLAN", "OSPF", "ACL", "Firewall", "IDS/IPS", "Kerberos"]
+      },
+      {
+        "title": "Cybersecurity Tools",
+        "icon": "Cybersecurity",
+        "skills": ["Wireshark", "Nmap", "Metasploit", "Gobuster", "Zabbix", "Wazuh"]
+      },
+      {
+        "title": "Automation",
+        "icon": "Automation",
+        "skills": ["n8n", "Bash", "PowerShell", "NetMiko"]
+      },
+      {
+        "title": "Programming",
+        "icon": "Programming",
+        "skills": ["Python", "JavaScript"]
+      },
+      {
+        "title": "Virtualization & Containers",
+        "icon": "Virtualization",
+        "skills": ["Docker", "VMware", "Kubernetes", "Proxmox"]
+      },
+      {
+        "title": "Operating Systems",
+        "icon": "OS",
+        "skills": ["Linux (Debian, Ubuntu, Kali)", "Windows"]
+      }
+    ]
+  },
+  "Certifications": {
+    "title": "Certifications",
+    "list": [
+      "CCNP Enterprise (Cisco)",
+      "HCIA-Datacom (Huawei)",
+      "Cybersecurity Analyst (Cisco)",
+      "Ethical Hacking (Cisco)",
+      "Kubernetes Fundamentals (Datascientist)",
+      "Scrum Fundamentals Certified (SCRUMStudy)",
+      "AI Fundamentals (SNK Foundation)",
+      "Network Defense (Cisco)",
+      "ISO 27001 / 27005 Risk Analysis"
+    ]
+  },
+  "Experience": {
+    "title": "Work Experience",
+    "generateInsights": "Generate AI Insights",
+    "items": [
+      {
+        "title": "CNPS Cameroon",
+        "date": "Jul–Sep 2025",
+        "description": "Improved network monitoring using AI. Developed a WhatsApp chatbot for Zabbix analytics and implemented proactive incident detection via machine learning."
+      },
+      {
+        "title": "AFEC Cameroon",
+        "date": "Jul–Sep 2024",
+        "description": "Installed and configured switches and routers, created AAA/802.1X authentication system, and documented network architecture."
+      }
+    ],
+    "insights": {
+      "title": "AI-Powered Insights",
+      "description": "Summary of strengths and potential future applications based on the experience.",
+      "loading": "Generating insights...",
+      "error": {
+        "title": "Error",
+        "description": "Failed to generate AI insights. Please try again later."
+      }
+    }
+  },
+  "Education": {
+    "title": "Education",
+    "items": [
+      {
+        "title": "Bachelor’s Degree in Computer Science – Systems & Networks",
+        "institution": "IAI Cameroon, 2022–2025",
+        "icon": "GraduationCap"
+      },
+      {
+        "title": "Scientific Baccalaureate – Series D",
+        "institution": "2019",
+        "icon": "FileText"
+      }
+    ]
+  },
+  "Projects": {
+    "title": "My Projects",
+    "items": [
+      {
+        "title": "AI-Powered Network Chatbot",
+        "description": "Integrates Zabbix with WhatsApp for real-time monitoring and incident response.",
+        "tags": ["AI", "Automation", "Network Monitoring"]
+      },
+      {
+        "title": "Secure Network Access Control",
+        "description": "AAA + 802.1X authentication implementation for controlled and logged network access.",
+        "tags": ["Security", "Access Control", "Linux Server"]
+      },
+      {
+        "title": "Cloud Infrastructure Orchestration",
+        "description": "Automated deployment and management of virtualized environments using cloud-native tools.",
+        "tags": ["Cloud", "IaC", "Proxmox"]
+      }
+    ]
+  },
+  "Community": {
+    "title": "Community & Volunteering",
+    "activities": [
+      {
+        "text": "Trainer – IAI Network Club (2024–2025)",
+        "icon": "Presentation"
+      },
+      {
+        "text": "Participant – SNK AI Challenge 2025 (trained 100 youth in AI)",
+        "icon": "Award"
+      },
+      {
+        "text": "Contributor – AI Workshop, Spanish Embassy in Cameroon (2024)",
+        "icon": "Users"
+      }
+    ]
+  },
+  "Interests": {
+    "title": "Interests",
+    "list": [
+      "CTF (Root-Me, TryHackMe, CyberDefenders)", 
+      "AI Research", 
+      "Cybersecurity Webinars", 
+      "Scientific Writing", 
+      "Travel", 
+      "Music"
+    ]
+  },
+  "Contact": {
+    "title": "Contact Me",
+    "description": "Have a question or want to work together? Send me a message.",
+    "socialTitle": "Find me on social media"
+  },
+  "ContactForm": {
+    "name": {
+      "label": "Name",
+      "placeholder": "Your Name"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "your.email@example.com"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Tell me how I can help"
+    },
+    "sending": "Sending...",
+    "sendMessage": "Send Message",
+    "toast": {
+      "success": {
+        "title": "Message Sent!",
+        "description": "Thanks for reaching out! I’ll reply as soon as possible."
+      },
+      "error": {
+        "title": "Uh oh! Something went wrong.",
+        "description": "There was a problem with your request."
+      }
+    }
+  },
+  "Footer": {
+    "rights": "All rights reserved."
+  }
+}

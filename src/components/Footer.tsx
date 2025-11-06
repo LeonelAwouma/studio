@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail } from 'lucide-react';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 const socialLinks = [
   { name: 'GitHub', href: 'https://github.com/LeonelAwouma', icon: Github },
@@ -8,12 +9,15 @@ const socialLinks = [
 ];
 
 export default function Footer() {
+  const t = useTranslations('Footer');
+  const year = new Date().getFullYear();
+
   return (
     <footer className="bg-secondary border-t border-border/50">
       <div className="container py-8">
         <div className="flex flex-col sm:flex-row justify-between items-center gap-6">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Leonel AWOUMA. All rights reserved.
+            &copy; {year} Leonel AWOUMA. {t('rights')}
           </p>
           <div className="flex items-center gap-5">
             {socialLinks.map((link) => (

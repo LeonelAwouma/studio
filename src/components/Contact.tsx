@@ -2,6 +2,7 @@ import { Github, Linkedin, Home } from 'lucide-react';
 import { ContactForm } from './ContactForm';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 const socials = [
   {
@@ -22,6 +23,7 @@ const socials = [
 ];
 
 export default function Contact() {
+  const t = useTranslations('Contact');
   return (
     <section id="contact" className="bg-secondary">
       <div className="container">
@@ -30,14 +32,14 @@ export default function Contact() {
             <div className="grid grid-cols-1 md:grid-cols-2">
               <div className="p-8 md:p-12">
                 <CardHeader className="p-0 mb-6">
-                  <CardTitle className="text-3xl font-headline font-bold animated-gradient-text">Contact Me</CardTitle>
-                  <CardDescription>Have a question or want to work together? Send me a message.</CardDescription>
+                  <CardTitle className="text-3xl font-headline font-bold animated-gradient-text">{t('title')}</CardTitle>
+                  <CardDescription>{t('description')}</CardDescription>
                 </CardHeader>
                 <ContactForm />
               </div>
               <div className="p-8 md:p-12 bg-secondary/50 border-l border-border/20 flex flex-col justify-center">
                 <div className="space-y-6">
-                  <h3 className="text-xl font-bold font-headline">Find me on social media</h3>
+                  <h3 className="text-xl font-bold font-headline">{t('socialTitle')}</h3>
                   <div className="space-y-4">
                     {socials.map((social) => (
                       <Link

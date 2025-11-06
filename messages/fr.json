@@ -1,0 +1,195 @@
+
+{
+  "Header": {
+    "nav": {
+      "about": "À propos",
+      "skills": "Compétences",
+      "experience": "Expérience",
+      "projects": "Projets",
+      "contact": "Contact"
+    },
+    "downloadCV": "Télécharger CV",
+    "toggleMenu": "Basculer le menu de navigation"
+  },
+  "Hero": {
+    "role": "Administrateur Système & Réseau",
+    "description": "Je conçois, sécurise et optimise des systèmes informatiques en me concentrant sur la performance, la fiabilité et l'autonomisation des utilisateurs.",
+    "downloadCV": "Télécharger CV",
+    "contactMe": "Contactez-moi"
+  },
+  "About": {
+    "title": "À propos de moi",
+    "description": "En tant qu'administrateur système et réseau dévoué, je me concentre sur la fiabilité, la performance et la sensibilisation à la cybersécurité. J'apprécie la réactivité et la précision pour minimiser les temps d'arrêt et assurer la continuité des activités."
+  },
+  "Skills": {
+    "title": "Compétences Techniques",
+    "categories": [
+      {
+        "title": "Réseautique & Sécurité",
+        "icon": "Networking",
+        "skills": ["TCP/IP", "VPN", "VLAN", "OSPF", "ACL", "Pare-feu", "IDS/IPS", "Kerberos"]
+      },
+      {
+        "title": "Outils de Cybersécurité",
+        "icon": "Cybersecurity",
+        "skills": ["Wireshark", "Nmap", "Metasploit", "Gobuster", "Zabbix", "Wazuh"]
+      },
+      {
+        "title": "Automatisation",
+        "icon": "Automation",
+        "skills": ["n8n", "Bash", "PowerShell", "NetMiko"]
+      },
+      {
+        "title": "Programmation",
+        "icon": "Programming",
+        "skills": ["Python", "JavaScript"]
+      },
+      {
+        "title": "Virtualisation & Conteneurs",
+        "icon": "Virtualization",
+        "skills": ["Docker", "VMware", "Kubernetes", "Proxmox"]
+      },
+      {
+        "title": "Systèmes d'exploitation",
+        "icon": "OS",
+        "skills": ["Linux (Debian, Ubuntu, Kali)", "Windows"]
+      }
+    ]
+  },
+  "Certifications": {
+    "title": "Certifications",
+    "list": [
+      "CCNP Enterprise (Cisco)",
+      "HCIA-Datacom (Huawei)",
+      "Analyste en Cybersécurité (Cisco)",
+      "Piratage Éthique (Cisco)",
+      "Fondamentaux de Kubernetes (Datascientist)",
+      "Certifié Fondamentaux Scrum (SCRUMStudy)",
+      "Fondamentaux de l'IA (Fondation SNK)",
+      "Défense de Réseau (Cisco)",
+      "Analyse des Risques ISO 27001 / 27005"
+    ]
+  },
+  "Experience": {
+    "title": "Expérience Professionnelle",
+    "generateInsights": "Générer des aperçus IA",
+    "items": [
+      {
+        "title": "CNPS Cameroun",
+        "date": "Juil–Sep 2025",
+        "description": "Amélioration de la surveillance du réseau à l'aide de l'IA. Développement d'un chatbot WhatsApp pour l'analyse Zabbix et mise en œuvre de la détection proactive des incidents via l'apprentissage automatique."
+      },
+      {
+        "title": "AFEC Cameroun",
+        "date": "Juil–Sep 2024",
+        "description": "Installation et configuration de commutateurs et routeurs, création d'un système d'authentification AAA/802.1X et documentation de l'architecture réseau."
+      }
+    ],
+    "insights": {
+      "title": "Aperçus basés sur l'IA",
+      "description": "Résumé des points forts et des applications futures potentielles basées sur l'expérience.",
+      "loading": "Génération des aperçus...",
+      "error": {
+        "title": "Erreur",
+        "description": "Échec de la génération des aperçus IA. Veuillez réessayer plus tard."
+      }
+    }
+  },
+  "Education": {
+    "title": "Éducation",
+    "items": [
+      {
+        "title": "Licence en Informatique – Systèmes & Réseaux",
+        "institution": "IAI Cameroun, 2022–2025",
+        "icon": "GraduationCap"
+      },
+      {
+        "title": "Baccalauréat Scientifique – Série D",
+        "institution": "2019",
+        "icon": "FileText"
+      }
+    ]
+  },
+  "Projects": {
+    "title": "Mes Projets",
+    "items": [
+      {
+        "title": "Chatbot Réseau Alimenté par l'IA",
+        "description": "Intègre Zabbix avec WhatsApp pour une surveillance et une réponse aux incidents en temps réel.",
+        "tags": ["IA", "Automatisation", "Surveillance Réseau"]
+      },
+      {
+        "title": "Contrôle d'Accès Réseau Sécurisé",
+        "description": "Implémentation de l'authentification AAA + 802.1X pour un accès réseau contrôlé et journalisé.",
+        "tags": ["Sécurité", "Contrôle d'Accès", "Serveur Linux"]
+      },
+      {
+        "title": "Orchestration d'Infrastructure Cloud",
+        "description": "Déploiement et gestion automatisés d'environnements virtualisés à l'aide d'outils cloud-natifs.",
+        "tags": ["Cloud", "IaC", "Proxmox"]
+      }
+    ]
+  },
+  "Community": {
+    "title": "Communauté & Bénévolat",
+    "activities": [
+      {
+        "text": "Formateur – Club Réseau IAI (2024–2025)",
+        "icon": "Presentation"
+      },
+      {
+        "text": "Participant – Défi IA SNK 2025 (formé 100 jeunes à l'IA)",
+        "icon": "Award"
+      },
+      {
+        "text": "Contributeur – Atelier IA, Ambassade d'Espagne au Cameroun (2024)",
+        "icon": "Users"
+      }
+    ]
+  },
+  "Interests": {
+    "title": "Centres d'intérêt",
+    "list": [
+      "CTF (Root-Me, TryHackMe, CyberDefenders)", 
+      "Recherche en IA", 
+      "Webinaires sur la Cybersécurité", 
+      "Rédaction Scientifique", 
+      "Voyages", 
+      "Musique"
+    ]
+  },
+  "Contact": {
+    "title": "Contactez-moi",
+    "description": "Vous avez une question ou souhaitez collaborer ? Envoyez-moi un message.",
+    "socialTitle": "Retrouvez-moi sur les réseaux sociaux"
+  },
+  "ContactForm": {
+    "name": {
+      "label": "Nom",
+      "placeholder": "Votre Nom"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "votre.email@example.com"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Dites-moi comment je peux vous aider"
+    },
+    "sending": "Envoi en cours...",
+    "sendMessage": "Envoyer le Message",
+    "toast": {
+      "success": {
+        "title": "Message Envoyé !",
+        "description": "Merci de m'avoir contacté ! Je vous répondrai dès que possible."
+      },
+      "error": {
+        "title": "Oups ! Quelque chose s'est mal passé.",
+        "description": "Un problème est survenu avec votre requête."
+      }
+    }
+  },
+  "Footer": {
+    "rights": "Tous droits réservés."
+  }
+}
