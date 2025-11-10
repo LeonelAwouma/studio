@@ -13,7 +13,9 @@
   },
   "Hero": {
     "role": "Ingénieur Réseau & Sécurité | Analyste SOC | Zabbix & Automatisation",
-    "description": "Je place les besoins de mes clients et utilisateurs au cœur de ma démarche professionnelle, en veillant à ce qu'ils soient informés et formés aux meilleures pratiques afin d'optimiser les coûts et la performance en matière de sécurité."
+    "description": "Je place les besoins de mes clients et utilisateurs au cœur de ma démarche professionnelle, en veillant à ce qu'ils soient informés et formés aux meilleures pratiques afin d'optimiser les coûts et la performance en matière de sécurité.",
+    "downloadCV": "Télécharger CV",
+    "contactMe": "Contactez-moi"
   },
   "About": {
     "title": "À propos de moi",
