@@ -134,19 +134,19 @@
     "title": "My Projects",
     "items": [
       {
+        "title": "Trust AI - Secure Password Manager",
+        "description": "Developed a full-stack password management application with secure user authentication, data encryption, and an AI-powered password generator. Features real-time database synchronization with Firestore.",
+        "tags": ["Next.js", "Firebase", "GenAI", "Security"]
+      },
+      {
         "title": "AI-Powered Network Chatbot",
-        "description": "Integrates Zabbix with WhatsApp for real-time monitoring and incident response.",
+        "description": "Designed and implemented a conversational AI that integrates Zabbix with WhatsApp, enabling administrators to perform real-time network monitoring and receive instant incident alerts via chat.",
         "tags": ["AI", "Automation", "Network Monitoring"]
       },
       {
         "title": "Secure Network Access Control",
-        "description": "AAA + 802.1X authentication implementation for controlled and logged network access.",
+        "description": "Engineered a robust access control system using AAA (Freeradius) and 802.1X authentication. This solution provides granular control, strict user verification, and comprehensive access logging for corporate networks.",
         "tags": ["Security", "Access Control", "Linux Server"]
-      },
-      {
-        "title": "Cloud Infrastructure Orchestration",
-        "description": "Automated deployment and management of virtualized environments using cloud-native tools.",
-        "tags": ["Cloud", "IaC", "Proxmox"]
       }
     ]
   },

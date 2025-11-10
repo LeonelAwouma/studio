@@ -8,21 +8,21 @@
     },
     {
       "id": "project-1",
+      "description": "An illustration of an AI-powered password manager application.",
+      "imageUrl": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwYXNzd29yZCUyMHNlY3VyaXR5fGVufDB8fHx8MTc2MjAwNTYxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "password security"
+    },
+    {
+      "id": "project-2",
       "description": "An illustration of an AI-powered chatbot interface",
       "imageUrl": "https://images.unsplash.com/photo-1761223956853-7c7c12ebff18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxuZXR3b3JrJTIwY2hhdGJvdHxlbnwwfHx8fDE3NjE1MjkzODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "network chatbot"
     },
     {
-      "id": "project-2",
+      "id": "project-3",
       "description": "A diagram showing secure network access control points",
       "imageUrl": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuZXR3b3JrJTIwc2VjdXJpdHl8ZW58MHx8fHwxNzYxNDg4OTI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "network security"
-    },
-    {
-      "id": "project-3",
-      "description": "An abstract representation of cloud infrastructure and orchestration",
-      "imageUrl": "https://images.unsplash.com/photo-1685232436889-858c265cc68a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjbG91ZCUyMGluZnJhc3RydWN0dXJlfGVufDB8fHx8MTc2MTQyMTEwNnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "cloud infrastructure"
     }
   ]
 }

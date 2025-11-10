@@ -134,19 +134,19 @@
     "title": "Mes Projets",
     "items": [
       {
-        "title": "Chatbot Réseau Alimenté par l'IA",
-        "description": "Intègre Zabbix avec WhatsApp pour une surveillance et une réponse aux incidents en temps réel.",
+        "title": "Trust AI - Gestionnaire de Mots de Passe Sécurisé",
+        "description": "Développement d'une application full-stack de gestion de mots de passe avec authentification utilisateur sécurisée, chiffrement des données et un générateur de mots de passe alimenté par l'IA. Intègre la synchronisation en temps réel avec la base de données Firestore.",
+        "tags": ["Next.js", "Firebase", "GenAI", "Sécurité"]
+      },
+      {
+        "title": "Chatbot Réseau IA",
+        "description": "Conception et mise en œuvre d'une IA conversationnelle qui intègre Zabbix à WhatsApp, permettant aux administrateurs d'effectuer une surveillance réseau en temps réel et de recevoir des alertes d'incident instantanées par chat.",
         "tags": ["IA", "Automatisation", "Surveillance Réseau"]
       },
       {
         "title": "Contrôle d'Accès Réseau Sécurisé",
-        "description": "Implémentation de l'authentification AAA + 802.1X pour un accès réseau contrôlé et journalisé.",
+        "description": "Ingénierie d'un système de contrôle d'accès robuste utilisant l'authentification AAA (Freeradius) et 802.1X. Cette solution offre un contrôle granulaire, une vérification stricte des utilisateurs et une journalisation complète des accès pour les réseaux d'entreprise.",
         "tags": ["Sécurité", "Contrôle d'Accès", "Serveur Linux"]
-      },
-      {
-        "title": "Orchestration d'Infrastructure Cloud",
-        "description": "Déploiement et gestion automatisés d'environnements virtualisés à l'aide d'outils cloud-natifs.",
-        "tags": ["Cloud", "IaC", "Proxmox"]
       }
     ]
   },

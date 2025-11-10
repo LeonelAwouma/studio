@@ -55,7 +55,7 @@ export default function Projects() {
               </CardContent>
               <CardFooter className="flex-wrap">
                 <div className="flex flex-wrap gap-2 w-full">
-                  {project.tags.map((tag: string, tagIndex: number) => (
+                  {(project.tags as string[]).map((tag: string, tagIndex: number) => (
                     <Badge key={tagIndex} variant="secondary">{tag}</Badge>
                   ))}
                 </div>
