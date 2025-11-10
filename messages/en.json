@@ -150,6 +150,33 @@
       }
     ]
   },
+  "ProjectDetails": {
+    "trust-ai": {
+      "title": "Trust AI: Secure Password Manager",
+      "subtitle": "A comprehensive solution for secure password management, built with modern web technologies and artificial intelligence.",
+      "tags": ["Next.js", "Firebase Auth", "Firestore", "GenAI", "Zod", "ShadCN UI", "Tailwind CSS"],
+      "liveUrl": "https://trust-ai-eight.vercel.app/",
+      "visitSite": "Visit Live Site",
+      "about": {
+        "title": "About the Project",
+        "description": "Trust AI is a full-stack web application designed to provide users with a secure and intuitive platform for managing their digital credentials. The project addresses the critical need for strong, unique passwords by integrating an AI-powered generator while ensuring data is protected through robust authentication and encryption mechanisms. The application is fully responsive and offers real-time data synchronization across devices thanks to its cloud-based architecture."
+      },
+      "features": {
+        "title": "Key Features",
+        "list": [
+          "Secure User Authentication: Implemented with Firebase Authentication, providing a reliable and scalable sign-up and login system.",
+          "Real-Time Database: Utilizes Firestore to store encrypted passwords, ensuring that user data is synchronized in real-time across all sessions.",
+          "AI-Powered Password Generation: Leverages a GenAI model to generate strong, complex, and memorable passwords based on user-defined criteria.",
+          "Secure Data Handling: All sensitive data is encrypted before being stored, and form validations are enforced using Zod to ensure data integrity.",
+          "Modern & Responsive UI: Built with Next.js, ShadCN UI, and Tailwind CSS to deliver a clean, modern, and fully responsive user experience on any device."
+        ]
+      },
+      "tech": {
+        "title": "Technical Implementation",
+        "description": "The frontend is built with Next.js and React, using Server Components for optimal performance. The user interface is crafted with ShadCN UI and styled with Tailwind CSS. Firebase is at the core of the backend, with Firebase Authentication handling user management and Firestore serving as the real-time, NoSQL database. Genkit is used to integrate with Google's Gemini model for the AI password generation feature. Zod is used for schema validation on both the client and server."
+      }
+    }
+  },
   "Community": {
     "title": "Voluntary Experience",
     "activities": [
