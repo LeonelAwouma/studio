@@ -153,25 +153,25 @@
   "ProjectDetails": {
     "trust-ai": {
       "title": "TrustAI Shield: AI Fraud & Deepfake Detection",
-      "subtitle": "TrustAI Shield is your intelligent guardian against 21st-century cybercrime. In seconds, our AI analyzes any social profile, suspicious message, or media content to detect scams, deepfakes, and fake profiles with 98% accuracy.",
+      "subtitle": "TrustAI Shield is your intelligent guardian against 21st-century cybercrime. In seconds, our AI analyzes any social profile, suspicious message, or multimedia content to detect scams, deepfakes, and fake profiles with 98% accuracy. In a world where online fraud causes $63 billion in losses annually and the fraud detection market is growing at 21.2% per year, we make protection accessible to everyone—free for individuals, with tailored solutions for businesses and institutions.",
       "tags": ["AI", "Cybersecurity", "Next.js", "Fraud Detection", "Deepfake Detection", "Zod", "ShadCN UI", "Tailwind CSS"],
       "liveUrl": "https://trust-ai-eight.vercel.app/",
       "visitSite": "Visit Live Site",
       "about": {
         "title": "About the Project: The Problem, A Silent Epidemic",
-        "description": "Every day, millions of people worldwide are targeted by increasingly sophisticated cybercriminals. With 60% of cyberattacks starting with phishing and deepfakes enabling multi-million dollar heists, the threat is real and growing. Current detection technologies are often expensive, reserved for large corporations, and too slow to react. TrustAI Shield is an all-in-one intelligent platform that democratizes protection against cybercrime, making it accessible to everyone."
+        "description": "Every day, millions of people worldwide are targeted by increasingly sophisticated cybercriminals. With $63.9 billion in global fraud losses projected for 2025, 60% of cyberattacks beginning with phishing, and deepfakes enabling single attacks to steal as much as $24 million, the threat is escalating. Current detection technologies are often prohibitively expensive, reserved for large enterprises, and too slow to react effectively."
       },
       "features": {
         "title": "Key Features: 3 Complementary Modules",
         "list": [
-          "Profile Analysis: Comprehensive analysis of social profiles (Instagram, Facebook, LinkedIn, Twitter). Calculates a TrustScore based on 15+ behavioral indicators to detect bots, fake accounts, and compromised profiles.",
-          "Scam Detection: Real-time analysis of suspicious texts and URLs. Identifies phishing, advance-fee scams, and crypto-scams using a database of fraud patterns that is updated daily.",
-          "Deepfake Detection: Verifies the authenticity of photos and videos. Detects manipulations by generative AI to protect against visual identity theft."
+          "Profile Analysis: Complete analysis of social profiles (Instagram, Facebook, LinkedIn, Twitter), calculating a TrustScore based on over 15 behavioral indicators to detect bots, fake accounts, and compromised profiles.",
+          "Scam Detection: Real-time analysis of suspicious texts and URLs, identifying phishing, advance-fee fraud, and crypto scams using a fraud pattern database that is updated daily.",
+          "Deepfake Detection: Authenticity verification of photos and videos to detect AI-generated manipulations and protect against visual identity theft."
         ]
       },
       "tech": {
-        "title": "Our Differentiator: Accessibility + Accuracy",
-        "description": "TrustAI Shield was built with an intuitive interface that requires no technical training, delivering results in under 10 seconds. Validated on over 10,000 real cases, it achieves 98% accuracy and is multilingual (FR, EN, ES, AR, PT). The platform is built with Next.js, ShadCN UI, and Tailwind CSS, providing a modern and responsive user experience."
+        "title": "Our Differentiator: Accessibility + Precision",
+        "description": "TrustAI Shield features an intuitive interface that requires no technical training, delivering results in under 10 seconds. Validated on over 10,000 real cases, it achieves 98% accuracy. The platform is built with Next.js, ShadCN UI, and Tailwind CSS, providing a modern and responsive user experience."
       }
     }
   },
