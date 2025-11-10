@@ -12,32 +12,37 @@
     "toggleMenu": "Toggle navigation menu"
   },
   "Hero": {
-    "role": "System & Network Administrator",
-    "description": "I design, secure, and optimize IT systems with a focus on performance, reliability, and user empowerment.",
+    "role": "Network & Security Engineer | SOC Analyst | Zabbix & Automation",
+    "description": "I place the needs of my clients and users at the heart of my professional approach, ensuring that they are aware of and trained in best practices in order to optimize costs and security performance.",
     "downloadCV": "Download CV",
     "contactMe": "Contact Me"
   },
   "About": {
     "title": "About Me",
-    "description": "As a dedicated System and Network Administrator, I focus on reliability, performance, and cybersecurity awareness. I value responsiveness and precision in minimizing downtime and ensuring business continuity."
+    "description": "Responsive and always mindful of the priority of the tasks ahead, I guarantee my employer and its customers fast and accurate assistance to minimize downtime and its impact on productivity."
   },
   "Skills": {
     "title": "Technical Skills",
     "categories": [
       {
-        "title": "Networking & Security",
+        "title": "Network and Security",
         "icon": "Networking",
-        "skills": ["TCP/IP", "VPN", "VLAN", "OSPF", "ACL", "Firewall", "IDS/IPS", "Kerberos"]
+        "skills": ["TCP/IP", "ACL", "OSPF", "NAT", "Firewall", "IDS/IPS", "VPN", "VLAN", "VXLAN", "LAN", "WAN", "DC", "DHCP", "FTP", "SFTP", "SSH", "Kerberos", "LDAP", "HSRP", "HTTPS", "Switch & Router Cisco"]
       },
       {
         "title": "Cybersecurity Tools",
         "icon": "Cybersecurity",
-        "skills": ["Wireshark", "Nmap", "Metasploit", "Gobuster", "Zabbix", "Wazuh"]
+        "skills": ["Wireshark", "Nmap", "Metasploit", "Gobuster", "John The Ripper", "Medusa", "Threat Agent"]
       },
       {
-        "title": "Automation",
+        "title": "SIEM & Alert Management",
+        "icon": "Bot",
+        "skills": ["Zabbix", "Wazuh", "Grafana", "Nagios", "GLPI"]
+      },
+      {
+        "title": "Automation Tools",
         "icon": "Automation",
-        "skills": ["n8n", "Bash", "PowerShell", "NetMiko"]
+        "skills": ["n8n", "Bash scripts", "PowerShell", "NetMiko"]
       },
       {
         "title": "Programming",
@@ -47,27 +52,42 @@
       {
         "title": "Virtualization & Containers",
         "icon": "Virtualization",
-        "skills": ["Docker", "VMware", "Kubernetes", "Proxmox"]
+        "skills": ["Docker", "VirtualBox", "VMware", "Kubernetes", "Proxmox"]
       },
       {
         "title": "Operating Systems",
         "icon": "OS",
-        "skills": ["Linux (Debian, Ubuntu, Kali)", "Windows"]
+        "skills": ["Linux (Debian, Kali, Ubuntu, Fedora)", "Windows"]
+      },
+      {
+        "title": "Database Administration",
+        "icon": "Database",
+        "skills": ["MySQL", "PostgreSQL"]
+      },
+      {
+        "title": "Audit & Risk Analysis",
+        "icon": "ShieldCheck",
+        "skills": ["ISO 27001", "ISO 27005"]
       }
     ]
   },
   "Certifications": {
     "title": "Certifications",
     "list": [
-      "CCNP Enterprise (Cisco)",
-      "HCIA-Datacom (Huawei)",
+      "Implementing CI/CD with Jenkins: Creating Pipeline as Code (Coursera)",
+      "CCNP Enterprise: Core Networking (Cisco) Certificate of Completion",
+      "HCIA-Datacom V1.0 (Huawei)",
       "Cybersecurity Analyst (Cisco)",
+      "Network Technician (Cisco)",
+      "Endpoint Security (Cisco)",
+      "Network Defense (Cisco)",
+      "Artificial Intelligence (SNK Foundation)",
+      "Introduction to IOT (Cisco)",
       "Ethical Hacking (Cisco)",
       "Kubernetes Fundamentals (Datascientist)",
-      "Scrum Fundamentals Certified (SCRUMStudy)",
-      "AI Fundamentals (SNK Foundation)",
-      "Network Defense (Cisco)",
-      "ISO 27001 / 27005 Risk Analysis"
+      "Introduction to Cybersecurity (Cisco)",
+      "Scrums Fundamentals Certified (SCRUMStudy)",
+      "Fundamentals of Humanitarian Action (Disaster Ready)"
     ]
   },
   "Experience": {
@@ -75,14 +95,14 @@
     "generateInsights": "Generate AI Insights",
     "items": [
       {
-        "title": "CNPS Cameroon",
+        "title": "Intern at CNPS Cameroon",
         "date": "Jul–Sep 2025",
-        "description": "Improved network monitoring using AI. Developed a WhatsApp chatbot for Zabbix analytics and implemented proactive incident detection via machine learning."
+        "description": "Improved network monitoring administrator experience through artificial intelligence, involving the design of a WhatsApp chatbot to facilitate access to performance analyses from Zabbix. Tasks included server supervision, data analysis, multi-channel alerting, and machine learning integration."
       },
       {
-        "title": "AFEC Cameroon",
+        "title": "Intern at AFEC Cameroon",
         "date": "Jul–Sep 2024",
-        "description": "Installed and configured switches and routers, created AAA/802.1X authentication system, and documented network architecture."
+        "description": "Installed and configured network equipment, diagnosed connectivity issues, and implemented AAA (Freeradius) and 802.1X-based access control to verify user identity, apply rules, and ensure access logging."
       }
     ],
     "insights": {
@@ -100,12 +120,12 @@
     "items": [
       {
         "title": "Bachelor’s Degree in Computer Science – Systems & Networks",
-        "institution": "IAI Cameroon, 2022–2025",
+        "institution": "African Institute of Computer Science (AICS), 2022–2025",
         "icon": "GraduationCap"
       },
       {
         "title": "Scientific Baccalaureate – Series D",
-        "institution": "2019",
+        "institution": "Les CITOYENS Bilingual Complex, 2018-2019",
         "icon": "FileText"
       }
     ]
@@ -131,18 +151,18 @@
     ]
   },
   "Community": {
-    "title": "Community & Volunteering",
+    "title": "Voluntary Experience",
     "activities": [
       {
-        "text": "Trainer – IAI Network Club (2024–2025)",
-        "icon": "Presentation"
-      },
-      {
-        "text": "Participant – SNK AI Challenge 2025 (trained 100 youth in AI)",
+        "text": "Participation in the SNK AI Challenge 2025 training seminar - Train 100 young people (20 per region)",
         "icon": "Award"
       },
       {
-        "text": "Contributor – AI Workshop, Spanish Embassy in Cameroon (2024)",
+        "text": "Training Manager at Network Club (2024–2025) - IAI Cameroon",
+        "icon": "Presentation"
+      },
+      {
+        "text": "Training seminar on Artificial Intelligence (June 2024) - Ambassade d'Espagne au Cameroun, in partnership with the Spanish Embassy in Cameroon",
         "icon": "Users"
       }
     ]
@@ -150,12 +170,13 @@
   "Interests": {
     "title": "Interests",
     "list": [
-      "CTF (Root-Me, TryHackMe, CyberDefenders)", 
-      "AI Research", 
-      "Cybersecurity Webinars", 
-      "Scientific Writing", 
-      "Travel", 
-      "Music"
+      "CTF (Root-Me, TryHackMe, CyberDefenders)",
+      "Cyber Monitoring",
+      "Security Webinars",
+      "Writer on Medium",
+      "Travel",
+      "Music",
+      "Google Dev Fest 2025"
     ]
   },
   "Contact": {

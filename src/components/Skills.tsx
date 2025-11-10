@@ -1,14 +1,17 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Network, ShieldCheck, Bot, Code2, Server, Laptop } from "lucide-react";
+import { Network, ShieldCheck, Bot, Code2, Server, Laptop, Database } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 const icons: { [key: string]: React.ReactNode } = {
   Networking: <Network className="w-8 h-8 text-primary" />,
   Cybersecurity: <ShieldCheck className="w-8 h-8 text-primary" />,
+  Bot: <Bot className="w-8 h-8 text-primary" />,
   Automation: <Bot className="w-8 h-8 text-primary" />,
   Programming: <Code2 className="w-8 h-8 text-primary" />,
   Virtualization: <Server className="w-8 h-8 text-primary" />,
   OS: <Laptop className="w-8 h-8 text-primary" />,
+  Database: <Database className="w-8 h-8 text-primary" />,
+  ShieldCheck: <ShieldCheck className="w-8 h-8 text-primary" />,
 };
 
 export default function Skills() {

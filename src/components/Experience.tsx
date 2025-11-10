@@ -50,9 +50,9 @@ export default function Experience() {
         <div className="relative max-w-3xl mx-auto">
           <div className="absolute left-1/2 top-0 h-full w-px bg-border -translate-x-1/2"></div>
           {experienceItems.map((item, index) => (
-            <div key={index} className={`relative mb-12 flex items-center w-full ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}>
+            <div key={index} className={`relative mb-12 flex items-center w-full ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}>
               <div className="hidden md:block w-1/2"></div>
-              <div className="w-full md:w-1/2 md:pr-8 ${index % 2 === 0 ? 'md:pl-8' : 'md:pr-8'}">
+              <div className={`w-full md:w-1/2 ${index % 2 !== 0 ? 'md:pl-8' : 'md:pr-8'}`}>
                 <div className="p-6 bg-card rounded-lg shadow-lg border border-border/20 group">
                   <div className="flex items-center gap-3 mb-2">
                     <Briefcase className="w-6 h-6 text-accent" />
