@@ -134,9 +134,9 @@
     "title": "Mes Projets",
     "items": [
       {
-        "title": "Trust AI - Gestionnaire de Mots de Passe Sécurisé",
-        "description": "Développement d'une application full-stack de gestion de mots de passe avec authentification utilisateur sécurisée, chiffrement des données et un générateur de mots de passe alimenté par l'IA. Intègre la synchronisation en temps réel avec la base de données Firestore.",
-        "tags": ["Next.js", "Firebase", "GenAI", "Sécurité"]
+        "title": "TrustAI Shield - Détection IA de Fraude & Deepfake",
+        "description": "Une plateforme intelligente qui analyse les profils sociaux, les messages et les médias pour détecter les arnaques, les deepfakes et les faux profils avec une précision de 98 %.",
+        "tags": ["IA", "Cybersécurité", "Détection de Fraude", "Next.js"]
       },
       {
         "title": "Chatbot Réseau IA",
@@ -152,28 +152,26 @@
   },
   "ProjectDetails": {
     "trust-ai": {
-      "title": "Trust AI : Gestionnaire de Mots de Passe Sécurisé",
-      "subtitle": "Une solution complète pour la gestion sécurisée des mots de passe, construite avec des technologies web modernes et de l'intelligence artificielle.",
-      "tags": ["Next.js", "Firebase Auth", "Firestore", "GenAI", "Zod", "ShadCN UI", "Tailwind CSS"],
+      "title": "TrustAI Shield : Détection IA de Fraude & Deepfake",
+      "subtitle": "TrustAI Shield est votre gardien intelligent contre la cybercriminalité du 21ème siècle. En quelques secondes, notre IA analyse n'importe quel profil social, message suspect ou contenu multimédia pour détecter les arnaques, deepfakes et faux profils avec 98% de précision.",
+      "tags": ["IA", "Cybersécurité", "Next.js", "Détection de Fraude", "Détection de Deepfake", "Zod", "ShadCN UI", "Tailwind CSS"],
       "liveUrl": "https://trust-ai-eight.vercel.app/",
       "visitSite": "Visiter le site",
       "about": {
-        "title": "À propos du projet",
-        "description": "Trust AI est une application web full-stack conçue pour offrir aux utilisateurs une plateforme sécurisée et intuitive pour la gestion de leurs identifiants numériques. Le projet répond au besoin critique de mots de passe forts et uniques en intégrant un générateur alimenté par l'IA, tout en garantissant la protection des données grâce à des mécanismes d'authentification et de chiffrement robustes. L'application est entièrement responsive et offre une synchronisation des données en temps réel entre les appareils grâce à son architecture basée sur le cloud."
+        "title": "À propos du projet : Le Problème, Une Épidémie Silencieuse",
+        "description": "Chaque jour, des millions de personnes à travers le monde sont ciblées par des cybercriminels de plus en plus sophistiqués. Avec 60% des cyberattaques qui commencent par du phishing et les deepfakes permettant de voler des millions d'euros, la menace est réelle et croissante. Les technologies actuelles sont souvent chères, réservées aux grandes entreprises et trop lentes. TrustAI Shield est une plateforme intelligente tout-en-un qui démocratise la protection contre la cybercriminalité, la rendant accessible à tous."
       },
       "features": {
-        "title": "Fonctionnalités Clés",
+        "title": "Fonctionnalités Clés : 3 Modules Complémentaires",
         "list": [
-          "Authentification Utilisateur Sécurisée : Mise en œuvre avec Firebase Authentication, offrant un système d'inscription et de connexion fiable et évolutif.",
-          "Base de Données en Temps Réel : Utilise Firestore pour stocker les mots de passe chiffrés, garantissant que les données des utilisateurs sont synchronisées en temps réel sur toutes les sessions.",
-          "Génération de Mots de Passe par IA : Exploite un modèle GenAI pour générer des mots de passe forts, complexes et mémorables basés sur des critères définis par l'utilisateur.",
-          "Gestion Sécurisée des Données : Toutes les données sensibles sont chiffrées avant d'être stockées, et les validations de formulaires sont appliquées avec Zod pour garantir l'intégrité des données.",
-          "Interface Moderne & Responsive : Construite avec Next.js, ShadCN UI et Tailwind CSS pour offrir une expérience utilisateur épurée, moderne et entièrement responsive sur n'importe quel appareil."
+          "Analyse de Profil : Analyse complète de profils sociaux (Instagram, Facebook, LinkedIn, Twitter). Calcule un TrustScore basé sur plus de 15 indicateurs comportementaux pour détecter les bots, les faux comptes et les profils compromis.",
+          "Détection d'Arnaques : Analyse en temps réel de textes et d'URL suspects. Identifie le phishing, les arnaques à l'avance de frais et les crypto-escroqueries grâce à une base de données de schémas de fraude mise à jour quotidiennement.",
+          "Détection de Deepfake : Vérifie l'authenticité des photos et des vidéos. Détecte les manipulations par IA générative pour protéger contre l'usurpation d'identité visuelle."
         ]
       },
       "tech": {
-        "title": "Implémentation Technique",
-        "description": "Le frontend est construit avec Next.js et React, en utilisant les Server Components pour des performances optimales. L'interface utilisateur est conçue avec ShadCN UI et stylée avec Tailwind CSS. Firebase est au cœur du backend, avec Firebase Authentication pour la gestion des utilisateurs et Firestore comme base de données NoSQL en temps réel. Genkit est utilisé pour s'intégrer au modèle Gemini de Google pour la fonctionnalité de génération de mots de passe par IA. Zod est utilisé pour la validation des schémas côté client et serveur."
+        "title": "Notre Différenciateur : Accessibilité + Précision",
+        "description": "TrustAI Shield a été conçu avec une interface intuitive ne nécessitant aucune formation technique, fournissant des résultats en moins de 10 secondes. Validé sur plus de 10 000 cas réels, il atteint une précision de 98% et est multilingue (FR, EN, ES, AR, PT). La plateforme est construite avec Next.js, ShadCN UI et Tailwind CSS, offrant une expérience utilisateur moderne et réactive."
       }
     }
   },

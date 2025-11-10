@@ -134,9 +134,9 @@
     "title": "My Projects",
     "items": [
       {
-        "title": "Trust AI - Secure Password Manager",
-        "description": "Developed a full-stack password management application with secure user authentication, data encryption, and an AI-powered password generator. Features real-time database synchronization with Firestore.",
-        "tags": ["Next.js", "Firebase", "GenAI", "Security"]
+        "title": "TrustAI Shield - AI Fraud & Deepfake Detection",
+        "description": "An intelligent platform that analyzes social profiles, messages, and media to detect scams, deepfakes, and fake profiles with 98% accuracy.",
+        "tags": ["AI", "Cybersecurity", "Fraud Detection", "Next.js"]
       },
       {
         "title": "AI-Powered Network Chatbot",
@@ -152,28 +152,26 @@
   },
   "ProjectDetails": {
     "trust-ai": {
-      "title": "Trust AI: Secure Password Manager",
-      "subtitle": "A comprehensive solution for secure password management, built with modern web technologies and artificial intelligence.",
-      "tags": ["Next.js", "Firebase Auth", "Firestore", "GenAI", "Zod", "ShadCN UI", "Tailwind CSS"],
+      "title": "TrustAI Shield: AI Fraud & Deepfake Detection",
+      "subtitle": "TrustAI Shield is your intelligent guardian against 21st-century cybercrime. In seconds, our AI analyzes any social profile, suspicious message, or media content to detect scams, deepfakes, and fake profiles with 98% accuracy.",
+      "tags": ["AI", "Cybersecurity", "Next.js", "Fraud Detection", "Deepfake Detection", "Zod", "ShadCN UI", "Tailwind CSS"],
       "liveUrl": "https://trust-ai-eight.vercel.app/",
       "visitSite": "Visit Live Site",
       "about": {
-        "title": "About the Project",
-        "description": "Trust AI is a full-stack web application designed to provide users with a secure and intuitive platform for managing their digital credentials. The project addresses the critical need for strong, unique passwords by integrating an AI-powered generator while ensuring data is protected through robust authentication and encryption mechanisms. The application is fully responsive and offers real-time data synchronization across devices thanks to its cloud-based architecture."
+        "title": "About the Project: The Problem, A Silent Epidemic",
+        "description": "Every day, millions of people worldwide are targeted by increasingly sophisticated cybercriminals. With 60% of cyberattacks starting with phishing and deepfakes enabling multi-million dollar heists, the threat is real and growing. Current detection technologies are often expensive, reserved for large corporations, and too slow to react. TrustAI Shield is an all-in-one intelligent platform that democratizes protection against cybercrime, making it accessible to everyone."
       },
       "features": {
-        "title": "Key Features",
+        "title": "Key Features: 3 Complementary Modules",
         "list": [
-          "Secure User Authentication: Implemented with Firebase Authentication, providing a reliable and scalable sign-up and login system.",
-          "Real-Time Database: Utilizes Firestore to store encrypted passwords, ensuring that user data is synchronized in real-time across all sessions.",
-          "AI-Powered Password Generation: Leverages a GenAI model to generate strong, complex, and memorable passwords based on user-defined criteria.",
-          "Secure Data Handling: All sensitive data is encrypted before being stored, and form validations are enforced using Zod to ensure data integrity.",
-          "Modern & Responsive UI: Built with Next.js, ShadCN UI, and Tailwind CSS to deliver a clean, modern, and fully responsive user experience on any device."
+          "Profile Analysis: Comprehensive analysis of social profiles (Instagram, Facebook, LinkedIn, Twitter). Calculates a TrustScore based on 15+ behavioral indicators to detect bots, fake accounts, and compromised profiles.",
+          "Scam Detection: Real-time analysis of suspicious texts and URLs. Identifies phishing, advance-fee scams, and crypto-scams using a database of fraud patterns that is updated daily.",
+          "Deepfake Detection: Verifies the authenticity of photos and videos. Detects manipulations by generative AI to protect against visual identity theft."
         ]
       },
       "tech": {
-        "title": "Technical Implementation",
-        "description": "The frontend is built with Next.js and React, using Server Components for optimal performance. The user interface is crafted with ShadCN UI and styled with Tailwind CSS. Firebase is at the core of the backend, with Firebase Authentication handling user management and Firestore serving as the real-time, NoSQL database. Genkit is used to integrate with Google's Gemini model for the AI password generation feature. Zod is used for schema validation on both the client and server."
+        "title": "Our Differentiator: Accessibility + Accuracy",
+        "description": "TrustAI Shield was built with an intuitive interface that requires no technical training, delivering results in under 10 seconds. Validated on over 10,000 real cases, it achieves 98% accuracy and is multilingual (FR, EN, ES, AR, PT). The platform is built with Next.js, ShadCN UI, and Tailwind CSS, providing a modern and responsive user experience."
       }
     }
   },
