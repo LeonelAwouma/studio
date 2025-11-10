@@ -8,9 +8,24 @@ import { Button } from '@/components/ui/button';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
+function getProjectImage(slug: string) {
+  switch (slug) {
+    case 'trust-ai':
+      return placeholderImages.find(p => p.id === 'project-1');
+    case 'network-chatbot':
+      return placeholderImages.find(p => p.id === 'project-2');
+    case 'secure-access-control':
+      return placeholderImages.find(p => p.id === 'project-3');
+    default:
+      return placeholderImages[0];
+  }
+}
+
 export default async function ProjectDetailPage({ params: { slug, lang } }: { params: { slug: string, lang: string } }) {
   const t = await getTranslations({ locale: lang, namespace: `ProjectDetails.${slug}` });
-  const projectImage = placeholderImages.find(p => p.id === `project-${slug === 'trust-ai' ? 1 : 0}`);
+  const projectImage = getProjectImage(slug);
+
+  const liveUrl = t('liveUrl');
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -57,14 +72,16 @@ export default async function ProjectDetailPage({ params: { slug, lang } }: { pa
                   <p>{t('tech.description')}</p>
                 </div>
                 
-                <div className="mt-10 text-center">
-                  <Button asChild>
-                    <a href={t('liveUrl')} target="_blank" rel="noopener noreferrer">
-                      <Globe className="mr-2 h-5 w-5" />
-                      {t('visitSite')}
-                    </a>
-                  </Button>
-                </div>
+                {liveUrl && (
+                  <div className="mt-10 text-center">
+                    <Button asChild>
+                      <a href={liveUrl} target="_blank" rel="noopener noreferrer">
+                        <Globe className="mr-2 h-5 w-5" />
+                        {t('visitSite')}
+                      </a>
+                    </Button>
+                  </div>
+                )}
               </CardContent>
             </Card>
           </div>

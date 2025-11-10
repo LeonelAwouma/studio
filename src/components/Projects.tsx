@@ -16,14 +16,14 @@ export default function Projects() {
       image: placeholderImages.find(p => p.id === 'project-1')
     },
     {
-      slug: null,
+      slug: "network-chatbot",
       title: t('items.1.title'),
       description: t('items.1.description'),
       tags: t.raw('items.1.tags'),
       image: placeholderImages.find(p => p.id === 'project-2')
     },
     {
-      slug: null,
+      slug: "secure-access-control",
       title: t('items.2.title'),
       description: t('items.2.description'),
       tags: t.raw('items.2.tags'),
