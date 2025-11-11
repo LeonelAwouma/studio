@@ -171,31 +171,33 @@
       },
       "tech": {
         "title": "Notre Différenciateur : Accessibilité + Précision",
-        "description": "TrustAI Shield a été conçu avec une interface intuitive ne nécessitant aucune formation technique, fournissant des résultats en moins de 10 secondes. Validé sur plus de 10 000 cas réels, il atteint une précision de 98% et est multilingue (FR, EN, ES, AR, PT). La plateforme est construite avec Next.js, ShadCN UI et Tailwind CSS, offrant une expérience utilisateur moderne et réactive."
+        "description": "TrustAI Shield a été conçu avec une interface intuitive ne nécessitant aucune formation technique, fournissant des résultats en moins de 10 secondes. Validé sur plus de 10 000 cas réels, il atteint une précision de 98% et est multilingue (FR, EN, ES, AR, PT)."
       }
     },
     "network-chatbot": {
-      "title": "Chatbot de Surveillance Réseau IA",
-      "subtitle": "Une solution innovante qui révolutionne l'administration réseau en intégrant le système de monitoring Zabbix à une IA conversationnelle accessible via WhatsApp.",
-      "tags": ["IA", "Automatisation", "Monitoring Réseau", "Zabbix", "WhatsApp"],
+      "title": "Chatbot de Surveillance Réseau par IA",
+      "subtitle": "Cette solution vise à améliorer l'expérience administrateur dans le monitoring réseau grâce à l'IA. C'est une approche AIOps qui transforme l'interaction complexe avec Zabbix en un dialogue simple et intuitif via WhatsApp.",
+      "tags": ["IA", "Automatisation", "Monitoring Réseau", "Zabbix", "WhatsApp", "AIOps"],
       "liveUrl": "",
       "visitSite": "Voir sur GitHub",
       "about": {
-        "title": "À propos du projet : Simplifier les Opérations Réseau",
-        "description": "La surveillance réseau traditionnelle peut être fastidieuse, obligeant les administrateurs à naviguer dans des tableaux de bord complexes pour accéder aux informations critiques. Ce projet rationalise le processus en créant un chatbot qui permet au personnel informatique de consulter l'état du réseau, de recevoir des analyses de performance et d'obtenir des alertes instantanées directement depuis leurs appareils mobiles."
+        "title": "À propos du Projet : Simplifier les Opérations Réseau",
+        "description": "L'objectif est de concevoir une solution intelligente de monitoring réseau basée sur l'IA, permettant une supervision proactive et un accès en temps réel aux informations de performance via WhatsApp pour 39 sites. Les buts incluent la supervision complète des équipements critiques, le développement d'un chatbot WhatsApp pour l'accès mobile, et l'intégration d'algorithmes de machine learning pour la prévention des incidents."
       },
       "features": {
-        "title": "Fonctionnalités Clés",
+        "title": "Fonctionnalités IA et Automatisation",
         "list": [
-          "Surveillance en Temps Réel par Chat : Les administrateurs peuvent envoyer des commandes simples via WhatsApp pour vérifier l'état de 17 serveurs de production et autres équipements réseau.",
-          "Alertes Multi-canaux Automatisées : Le système envoie automatiquement des alertes pour les incidents critiques par Email, Telegram et WhatsApp, réduisant considérablement les temps de réponse.",
-          "Analyse de Performance à la Demande : Facilite l'accès aux données de performance et aux analyses générées par Zabbix sans avoir besoin de se connecter au système principal.",
-          "Surveillance Préventive des Incidents : Intègre des algorithmes de machine learning pour analyser les tendances et prédire les problèmes potentiels avant qu'ils n'impactent la productivité."
+          "Interface Conversationnelle WhatsApp : Permet aux administrateurs d'accéder aux données de monitoring via une interface mobile intuitive et en temps réel.",
+          "Authentification Sécurisée : L'accès aux commandes Zabbix est protégé par une authentification via le chatbot, avec un blocage temporaire après 3 tentatives échouées.",
+          "Analyse en Langage Naturel (!zabbix analyze) : Fournit un résumé des performances système, identifie les problèmes prioritaires et propose des recommandations en utilisant l'API Gemini pour interpréter les données brutes de Zabbix.",
+          "Prévention des Pannes (!zabbix predict) : Estime le risque d'incident pour un hôte en se basant sur ses métriques (RAM, CPU, ROM) grâce à l'algorithme de machine learning Random Forest.",
+          "Génération Automatique de Tickets : Le workflow automatise la création de tickets de support dans GLPI dès qu'un incident est détecté par Zabbix.",
+          "Notifications Enrichies : Les alertes WhatsApp incluent l'ID du ticket GLPI, un lien direct, le nom de l'hôte, la description du problème, le niveau de sévérité, ainsi qu'une analyse et des recommandations de solutions fournies par l'IA."
         ]
       },
       "tech": {
         "title": "Implémentation Technique",
-        "description": "La solution est construite en utilisant Python pour la logique backend, en s'intégrant à l'API de Zabbix pour récupérer les données de surveillance et à l'API WhatsApp Business pour la communication. Elle est conçue pour une haute disponibilité et une faible latence, garantissant que les administrateurs disposent d'un accès fiable et en temps réel à l'état de leur infrastructure réseau."
+        "description": "La solution est construite sur une pile technologique multi-couches : Zabbix pour le monitoring, WhatsApp comme interface, n8n comme moteur d'automatisation, le modèle de langage Gemini pour l'interprétation, et GLPI pour la gestion des incidents. Cette approche transforme la surveillance réactive en une supervision proactive et intelligente, réduisant drastiquement les temps de résolution des incidents (MTTR)."
       }
     },
     "secure-access-control": {
