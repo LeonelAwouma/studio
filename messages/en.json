@@ -153,25 +153,29 @@
   "ProjectDetails": {
     "trust-ai": {
       "title": "TrustAI Shield: AI Fraud & Deepfake Detection",
-      "subtitle": "TrustAI Shield is your intelligent guardian against 21st-century cybercrime. In seconds, our AI analyzes any social profile, suspicious message, or multimedia content to detect scams, deepfakes, and fake profiles with 98% accuracy. In a world where online fraud causes $63 billion in losses annually and the fraud detection market is growing at 21.2% per year, we make protection accessible to everyone—free for individuals, with tailored solutions for businesses and institutions.",
+      "subtitle": "TrustAI Shield is an intelligent digital guardian designed to help users browse the web with confidence by detecting online scams, fake profiles, and deepfakes.",
       "tags": ["AI", "Cybersecurity", "Next.js", "Fraud Detection", "Deepfake Detection", "Zod", "ShadCN UI", "Tailwind CSS"],
       "liveUrl": "https://trust-ai-eight.vercel.app/",
       "visitSite": "Visit Live Site",
       "about": {
-        "title": "About the Project: The Problem, A Silent Epidemic",
-        "description": "Every day, millions of people worldwide are targeted by increasingly sophisticated cybercriminals. With $63.9 billion in global fraud losses projected for 2025, 60% of cyberattacks beginning with phishing, and deepfakes enabling single attacks to steal as much as $24 million, the threat is escalating. Current detection technologies are often prohibitively expensive, reserved for large enterprises, and too slow to react effectively."
+        "title": "About the Project: Purpose",
+        "description": "The project aims to build an intelligent digital “guardian” to protect against online scams, provide real-time analysis with a “Trust Score” for non-technical users, ensure data privacy, enable community-based reporting of threats, and educate users on digital hygiene."
       },
       "features": {
-        "title": "Key Features: 3 Complementary Modules",
+        "title": "Key Features",
         "list": [
-          "Profile Analysis: Complete analysis of social profiles (Instagram, Facebook, LinkedIn, Twitter), calculating a TrustScore based on over 15 behavioral indicators to detect bots, fake accounts, and compromised profiles.",
-          "Scam Detection: Real-time analysis of suspicious texts and URLs, identifying phishing, advance-fee fraud, and crypto scams using a fraud pattern database that is updated daily.",
-          "Deepfake Detection: Authenticity verification of photos and videos to detect AI-generated manipulations and protect against visual identity theft."
+          "Real-Time Browser Analysis: An extension integrates directly into the browser to provide immediate evaluations of suspicious pages or profiles.",
+          "Trust Score Calculation: Assigns a simple risk/reliability score to any analyzed web page, profile, or media, simplifying the user's decision-making process.",
+          "Advanced Detection: Core algorithms identify fake social profiles, fraudulent schemes, and manipulated media like deepfakes by analyzing content, metadata, and behavioral signals.",
+          "Secure Content Analysis: Users can safely upload URLs, images, and videos for assessment, with a strong focus on data privacy and protection.",
+          "Community Reporting Mechanism: Allows users to report suspicious content, contributing to a shared threat intelligence database that improves future detection for everyone.",
+          "Educational Resources: Provides downloadable guides, blog articles, and information about online safety to proactively educate users.",
+          "Enhanced User Experience: Features a multilingual interface and a theme toggle (light/dark mode) for broad accessibility and user comfort."
         ]
       },
       "tech": {
-        "title": "Our Differentiator: Accessibility + Precision",
-        "description": "TrustAI Shield features an intuitive interface that requires no technical training, delivering results in under 10 seconds. Validated on over 10,000 real cases, it achieves 98% accuracy."
+        "title": "Technical Approach",
+        "description": "TrustAI Shield combines a user-friendly interface with a powerful back-end analysis engine. It is built to be intuitive, requiring no technical training, and delivers results in under 10 seconds with 98% accuracy validated on over 10,000 real cases."
       }
     },
     "network-chatbot": {
