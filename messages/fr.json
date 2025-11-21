@@ -12,7 +12,7 @@
     "toggleMenu": "Basculer le menu de navigation"
   },
   "Hero": {
-    "role": "Ingénieur Réseau & Sécurité | Analyste SOC | Zabbix & Automatisation",
+    "role": "Ingénieur Réseau & Sécurité | Analyste SOC | Supervision & Automatisation",
     "description": "Je place les besoins de mes clients et utilisateurs au cœur de ma démarche professionnelle, en veillant à ce qu'ils soient informés et formés aux meilleures pratiques afin d'optimiser les coûts et la performance en matière de sécurité.",
     "downloadCV": "Télécharger CV",
     "contactMe": "Contactez-moi"
@@ -103,6 +103,16 @@
         "title": "Stagiaire à AFEC Cameroun",
         "date": "Juil–Sep 2024",
         "description": "Installation et configuration d'équipements réseau, diagnostic des problèmes de connectivité, et mise en place d'un contrôle d'accès AAA (Freeradius) et 802.1X pour vérifier l'identité des utilisateurs, appliquer des règles et assurer la journalisation des accès."
+      },
+      {
+        "title": "Ambassadeur de Marque à CELESTE",
+        "date": "Mai–Oct 2022",
+        "description": "Responsable de l'engagement client en ligne, de la gestion des commandes multicanaux (téléphone, WhatsApp, Facebook) et du marketing digital pour augmenter les ventes. J'ai également géré les réseaux sociaux, fidélisé la clientèle et développé des partenariats stratégiques pour atteindre les objectifs commerciaux."
+      },
+      {
+        "title": "Ambassadeur de Marque à BUZIGO",
+        "date": "Déc 2021–Mars 2022",
+        "description": "En charge de l'ensemble du cycle de vente, de la prospection numérique et sur le terrain à la négociation commerciale et au recouvrement. J'ai développé et déployé des stratégies marketing pour stimuler les commandes, supervisé les trackers commerciaux et contribué à l'amélioration des processus logistiques et commerciaux."
       }
     ],
     "insights": {
@@ -171,7 +181,7 @@
       },
       "tech": {
         "title": "Notre Différenciateur : Accessibilité + Précision",
-        "description": "TrustAI Shield a été conçu avec une interface intuitive ne nécessitant aucune formation technique, fournissant des résultats en moins de 10 secondes. Validé sur plus de 10 000 cas réels, il atteint une précision de 98% et est multilingue (FR, EN, ES, AR, PT)."
+        "description": "TrustAI Shield a été conçu avec une interface intuitive ne nécessitant aucune formation technique, fournissant des résultats en moins de 10 secondes. Validé sur plus de 10 000 cas réels, avec une extrême précision et est multilingue (FR, EN)."
       }
     },
     "network-chatbot": {
@@ -181,18 +191,18 @@
       "liveUrl": "",
       "visitSite": "Voir sur GitHub",
       "about": {
-        "title": "À propos du Projet : Simplifier les Opérations Réseau",
-        "description": "L'objectif est de concevoir une solution intelligente de monitoring réseau basée sur l'IA, permettant une supervision proactive et un accès en temps réel aux informations de performance via WhatsApp pour 39 sites. Les buts incluent la supervision complète des équipements critiques, le développement d'un chatbot WhatsApp pour l'accès mobile, et l'intégration d'algorithmes de machine learning pour la prévention des incidents."
+        "title": "À propos du projet : Simplifier les opérations réseau",
+        "description": "La solution proposée vise spécifiquement l'amélioration de l'expérience administrateur dans le monitoring réseau grâce à l'Intelligence Artificielle (IA). Elle représente une approche d'AIOps (Intelligence Artificielle pour les Opérations IT), transformant l'interaction complexe avec le système de supervision existant (Zabbix) en un dialogue simple, intuitif et efficace via WhatsApp."
       },
       "features": {
         "title": "Fonctionnalités IA et Automatisation",
         "list": [
-          "Interface Conversationnelle WhatsApp : Permet aux administrateurs d'accéder aux données de monitoring via une interface mobile intuitive et en temps réel.",
-          "Authentification Sécurisée : L'accès aux commandes Zabbix est protégé par une authentification via le chatbot, avec un blocage temporaire après 3 tentatives échouées.",
-          "Analyse en Langage Naturel (!zabbix analyze) : Fournit un résumé des performances système, identifie les problèmes prioritaires et propose des recommandations en utilisant l'API Gemini pour interpréter les données brutes de Zabbix.",
-          "Prévention des Pannes (!zabbix predict) : Estime le risque d'incident pour un hôte en se basant sur ses métriques (RAM, CPU, ROM) grâce à l'algorithme de machine learning Random Forest.",
-          "Génération Automatique de Tickets : Le workflow automatise la création de tickets de support dans GLPI dès qu'un incident est détecté par Zabbix.",
-          "Notifications Enrichies : Les alertes WhatsApp incluent l'ID du ticket GLPI, un lien direct, le nom de l'hôte, la description du problème, le niveau de sévérité, ainsi qu'une analyse et des recommandations de solutions fournies par l'IA."
+          "Interface Conversationnelle WhatsApp : Permet aux utilisateurs d’accéder aux informations de monitoring via une interface WhatsApp intuitive, offrant un accès en temps réel aux métriques réseau en mobilité.",
+          "Authentification Sécurisée : L'accès aux commandes sécurisées de Zabbix est conditionné par une authentification via le chatbot. Le système se bloque temporairement après 3 tentatives incorrectes.",
+          "Analyse en Langage Naturel (`!zabbix analyze`) : Fournit un résumé en langage naturel des performances, identifie les problèmes prioritaires et propose des recommandations en utilisant l'API Gemini pour interpréter les données brutes de Zabbix.",
+          "Prévention des Pannes (`!zabbix predict`) : Estime le risque d’incident pour un hôte en se basant sur ses métriques (RAM, CPU, ROM) grâce à l'algorithme de machine learning Random Forest.",
+          "Génération Automatique de Tickets : Le workflow automatise la création de tickets de support via l’API de GLPI dès qu'un incident technique est détecté par Zabbix.",
+          "Notifications Enrichies : Les alertes WhatsApp sont détaillées, incluant l'ID du ticket GLPI, un lien direct, le nom de l'hôte, la description du problème, et une analyse avec des recommandations de solutions fournies par l'IA."
         ]
       },
       "tech": {
@@ -289,3 +299,5 @@
     "rights": "Tous droits réservés."
   }
 }
+
+    

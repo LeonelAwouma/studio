@@ -103,6 +103,16 @@
         "title": "Intern at AFEC Cameroon",
         "date": "Jul–Sep 2024",
         "description": "Installed and configured network equipment, diagnosed connectivity issues, and implemented AAA (Freeradius) and 802.1X-based access control to verify user identity, apply rules, and ensure access logging."
+      },
+      {
+        "title": "Brand Ambassador at CELESTE",
+        "date": "May–Oct 2022",
+        "description": "Responsible for online customer engagement, managing multi-channel orders (phone, WhatsApp, Facebook), and digital marketing to increase sales. I also managed social media, built customer loyalty, and developed strategic partnerships to achieve business goals."
+      },
+      {
+        "title": "Brand Ambassador at BUZIGO",
+        "date": "Dec 2021–Mar 2022",
+        "description": "Managed the entire sales cycle, from digital and field prospecting to commercial negotiation and collections. I developed and deployed marketing strategies to boost orders, supervised business trackers, and contributed to improving logistics and sales processes."
       }
     ],
     "insights": {
@@ -159,7 +169,7 @@
       "visitSite": "Visit Live Site",
       "about": {
         "title": "About the Project: Purpose",
-        "description": "The project aims to build an intelligent digital “guardian” to protect against online scams, provide real-time analysis with a “Trust Score” for non-technical users, ensure data privacy, enable community-based reporting of threats, and educate users on digital hygiene."
+        "description": "The project aims to build an intelligent digital “guardian” that helps users browse the Web with confidence. Its objectives include: detecting and protecting against online scams, fake profiles and deep-fakes, providing a browser-based extension for real-time analysis, giving each analysed item a “Trust Score”, ensuring users’ data privacy, enabling users to report suspicious content, and educating users about digital hygiene."
       },
       "features": {
         "title": "Key Features",
@@ -186,22 +196,22 @@
       "visitSite": "View on GitHub",
       "about": {
         "title": "About the Project: Simplifying Network Operations",
-        "description": "The goal is to design and implement an intelligent, AI-based network monitoring solution that enables proactive supervision and real-time access to performance information via WhatsApp for all 39 CNPS sites. Specific objectives include: ensuring comprehensive real-time supervision of critical network equipment, developing a WhatsApp chatbot for mobile access to monitoring information, and integrating machine learning algorithms for preventive incident monitoring."
+        "description": "The proposed solution aims to significantly improve the network monitoring administrator experience through Artificial Intelligence (AI). It represents an AIOps (AI for IT Operations) approach, transforming the complex interaction with the existing supervision system (Zabbix) into a simple, intuitive, and effective dialogue via WhatsApp."
       },
       "features": {
-        "title": "Conversational AI and Automation Features",
+        "title": "AI and Automation Features",
         "list": [
-          "Conversational WhatsApp Interface: Allows administrators to access monitoring information through an intuitive and accessible WhatsApp interface, providing real-time mobile access to network metrics.",
+          "Conversational WhatsApp Interface: Allows administrators to access monitoring information through an intuitive WhatsApp interface, providing real-time mobile access to network metrics.",
           "Secure Authentication: Access to secure Zabbix commands is protected by chatbot authentication. The system temporarily blocks access after 3 incorrect password attempts.",
-          "Natural Language Analysis (!zabbix analyze): Provides a natural language summary of system performance, identifies priority issues, and offers recommendations using the Gemini API to interpret raw JSON data from Zabbix.",
-          "Failure Prevention (!zabbix predict): Estimates the risk of an incident for a host based on its metrics (RAM, CPU, ROM) using the Random Forest machine learning algorithm.",
+          "Natural Language Analysis (`!zabbix analyze`): Provides a natural language summary of system performance, identifies priority issues, and offers recommendations using the Gemini API to interpret raw JSON data from Zabbix.",
+          "Failure Prevention (`!zabbix predict`): Estimates the risk of an incident for a host based on its metrics (RAM, CPU, ROM) using the Random Forest machine learning algorithm.",
           "Automated Ticket Generation: The workflow automates the creation of support tickets via the GLPI API as soon as a technical incident is detected by Zabbix.",
-          "Enriched Notifications: Alerts received via WhatsApp are detailed and structured, including the GLPI ticket ID, a direct link to the ticket, the host name, problem description, severity level, and a non-technical analysis with solution recommendations provided by the AI."
+          "Enriched Notifications: Alerts received via WhatsApp are detailed and structured, including the GLPI ticket ID, a direct link, the host name, problem description, severity level, and a non-technical analysis with solution recommendations provided by the AI."
         ]
       },
       "tech": {
         "title": "Technical Implementation",
-        "description": "The solution is built on a multi-layered technology stack: Zabbix for technical monitoring, WhatsApp as the conversational entry point, n8n as the collection and automation engine, the Gemini language model for natural language interpretation, and GLPI for automated incident management. This transforms reactive monitoring into a proactive, intelligent supervision system, drastically reducing incident resolution times (MTTR) from minutes to seconds."
+        "description": "The solution is built on a multi-layered technology stack: Zabbix for technical monitoring, WhatsApp as the conversational entry point, n8n as the collection and automation engine, the Gemini language model for natural language interpretation, and GLPI for automated incident management. This transforms reactive monitoring into a proactive, intelligent supervision system, drastically reducing incident resolution times (MTTR)."
       }
     },
     "secure-access-control": {
@@ -293,3 +303,5 @@
     "rights": "All rights reserved."
   }
 }
+
+    
