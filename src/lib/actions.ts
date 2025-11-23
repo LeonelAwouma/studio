@@ -21,6 +21,11 @@ export async function sendContactEmail(formData: { name: string; email: string; 
 
   const { name, email, message } = parsed.data;
   
+  if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS) {
+    console.error("Email credentials are not set in environment variables.");
+    return { success: false, error: "Server configuration error." };
+  }
+
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 465,
