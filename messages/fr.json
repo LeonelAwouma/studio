@@ -1,0 +1,624 @@
+{
+  "Header": {
+    "nav": {
+      "about": "À propos",
+      "skills": "Compétences",
+      "experience": "Expérience",
+      "projects": "Projets",
+      "design": "Design",
+      "contact": "Contact"
+    },
+    "downloadCV": "Télécharger CV",
+    "toggleMenu": "Basculer le menu de navigation"
+  },
+  "Hero": {
+    "role": "INGÉNIEUR IT",
+    "description": "Je place les besoins de mes clients et utilisateurs au cœur de ma démarche professionnelle, en veillant à ce qu'ils soient informés et formés aux meilleures pratiques afin d'optimiser les coûts et la performance en matière de sécurité.",
+    "downloadCV": "Télécharger CV",
+    "contactMe": "Contactez-moi"
+  },
+  "About": {
+    "title": "À propos de moi",
+    "description": "Réactif et toujours conscient de la priorité des tâches à accomplir, je garantis à mon employeur et à ses clients une assistance rapide et précise pour minimiser les temps d'arrêt et leur impact sur la productivité."
+  },
+  "Skills": {
+    "title": "Compétences Techniques",
+    "categories": [
+      {
+        "title": "Réseau et Sécurité",
+        "icon": "Networking",
+        "skills": [
+          "TCP/IP",
+          "ACL",
+          "OSPF",
+          "NAT",
+          "Pare-feu",
+          "IDS/IPS",
+          "VPN",
+          "VLAN",
+          "VXLAN",
+          "LAN",
+          "WAN",
+          "DC",
+          "DHCP",
+          "FTP",
+          "SFTP",
+          "SSH",
+          "Kerberos",
+          "LDAP",
+          "HSRP",
+          "HTTPS",
+          "Commutateur & Routeur Cisco"
+        ]
+      },
+      {
+        "title": "Outils de Cybersécurité",
+        "icon": "Cybersecurity",
+        "skills": [
+          "Wireshark",
+          "Nmap",
+          "Metasploit",
+          "Gobuster",
+          "John The Ripper",
+          "Medusa",
+          "Threat Agent"
+        ]
+      },
+      {
+        "title": "SIEM & Gestion des Alertes",
+        "icon": "Bot",
+        "skills": [
+          "Zabbix",
+          "Wazuh",
+          "Grafana",
+          "Nagios",
+          "GLPI"
+        ]
+      },
+      {
+        "title": "Outils d'Automatisation",
+        "icon": "Automation",
+        "skills": [
+          "n8n",
+          "Scripts Bash",
+          "PowerShell",
+          "NetMiko"
+        ]
+      },
+      {
+        "title": "Programmation",
+        "icon": "Programming",
+        "skills": [
+          "Python",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "Virtualisation & Conteneurs",
+        "icon": "Virtualization",
+        "skills": [
+          "Docker",
+          "VirtualBox",
+          "VMware",
+          "Kubernetes",
+          "Proxmox"
+        ]
+      },
+      {
+        "title": "Systèmes d'exploitation",
+        "icon": "OS",
+        "skills": [
+          "Linux (Debian, Kali, Ubuntu, Fedora)",
+          "Windows"
+        ]
+      },
+      {
+        "title": "Administration de Base de Données",
+        "icon": "Database",
+        "skills": [
+          "MySQL",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "title": "Audit & Analyse des Risques",
+        "icon": "ShieldCheck",
+        "skills": [
+          "ISO 27001",
+          "ISO 27005"
+        ]
+      }
+    ]
+  },
+  "Certifications": {
+    "title": "Certifications",
+    "list": [
+      "Mise en œuvre de CI/CD avec Jenkins : Création de Pipeline en tant que Code (Coursera)",
+      "CCNP Enterprise : Mise en réseau de base (Cisco) Certificat de réussite",
+      "HCIA-Datacom V1.0 (Huawei)",
+      "Analyste en Cybersécurité (Cisco)",
+      "Technicien Réseau (Cisco)",
+      "Sécurité des Points d'Extrémité (Cisco)",
+      "Défense de Réseau (Cisco)",
+      "Intelligence Artificielle (Fondation SNK)",
+      "Introduction à l'IOT (Cisco)",
+      "Piratage Éthique (Cisco)",
+      "Fondamentaux de Kubernetes (Datascientist)",
+      "Introduction à la Cybersécurité (Cisco)",
+      "Fondamentaux de Scrum Certifié (SCRUMStudy)",
+      "Fondamentaux de l'Action Humanitaire (Disaster Ready)"
+    ]
+  },
+  "Experience": {
+    "title": "Expérience Professionnelle",
+    "generateInsights": "Générer des aperçus IA",
+    "items": [
+      {
+        "title": "Stagiaire - Support IT au Groupe ICCNET",
+        "date": "Nov 2025 – Avr 2026",
+        "description": "Participation au déploiement d'un serveur de messagerie Exchange Server Subscription Edition (SE) et fourniture d'un support technique N1/N2 aux employés sur site et à distance. Gestion des incidents via Odoo, administration des comptes utilisateurs (Microsoft 365, Teams) et maintenance des postes de travail."
+      },
+      {
+        "title": "Stagiaire à la CNPS Cameroun",
+        "date": "Juil–Sep 2025",
+        "description": "Amélioration de l'expérience administrateur en surveillance réseau grâce à l'intelligence artificielle, impliquant la conception d'un chatbot WhatsApp pour faciliter l'accès aux analyses de performance de Zabbix. Tâches : supervision des serveurs, analyse de données, alertes multicanaux, et intégration d'algorithmes de machine learning."
+      },
+      {
+        "title": "Stagiaire à AFEC Cameroun",
+        "date": "Juil–Sep 2024",
+        "description": "Installation et configuration d'équipements réseau, diagnostic des problèmes de connectivité, et mise en place d'un contrôle d'accès AAA (Freeradius) et 802.1X pour vérifier l'identité des utilisateurs, appliquer des règles et assurer la journalisation des accès."
+      },
+      {
+        "title": "Ambassadeur de Marque à CELESTE",
+        "date": "Mai–Oct 2022",
+        "description": "Responsable de l'engagement client en ligne, de la gestion des commandes multicanaux (téléphone, WhatsApp, Facebook) et du marketing digital pour augmenter les ventes. J'ai également géré les réseaux sociaux, fidélisé la clientèle et développé des partenariats stratégiques pour atteindre les objectifs commerciaux."
+      },
+      {
+        "title": "Ambassadeur de Marque à BUZIGO",
+        "date": "Déc 2021–Mars 2022",
+        "description": "En charge de l'ensemble du cycle de vente, de la prospection numérique et sur le terrain à la négociation commerciale et au recouvrement. J'ai développé et déployé des stratégies marketing pour stimuler les commandes, supervisé les trackers commerciaux et contribué à l'amélioration des processus logistiques et commerciaux."
+      }
+    ],
+    "insights": {
+      "title": "Aperçus basés sur l'IA",
+      "description": "Résumé des points forts et des applications futures potentielles basées sur l'expérience.",
+      "loading": "Génération des aperçus...",
+      "error": {
+        "title": "Erreur",
+        "description": "Échec de la génération des aperçus IA. Veuillez réessayer plus tard."
+      }
+    }
+  },
+  "Education": {
+    "title": "Éducation",
+    "items": [
+      {
+        "title": "Licence en Informatique – Option Systèmes & Réseaux",
+        "institution": "Institut Africain d'Informatique (IAI), 2022–2025",
+        "icon": "GraduationCap"
+      },
+      {
+        "title": "Baccalauréat Scientifique – Série D",
+        "institution": "Complexe Bilingue Les CITOYENS, 2018-2019",
+        "icon": "FileText"
+      }
+    ]
+  },
+  "Projects": {
+    "title": "Mes Projets",
+    "items": [
+      {
+        "title": "Système d'analyse du trafic routier par IA",
+        "description": "Une solution intelligente transformant les caméras de rue en tableaux de bord de trafic en temps réel pour la sécurité et l'urbanisme.",
+        "slug": "traffic-analysis",
+        "tags": [
+          "IA",
+          "Computer Vision",
+          "YOLO",
+          "OpenCV",
+          "Sécurité Routière"
+        ]
+      },
+      {
+        "title": "L'Amélioration de l'Expérience Utilisateur dans le Monitoring Réseau grâce à l'IA",
+        "description": "Une IA conversationnelle intégrant Zabbix à WhatsApp pour une surveillance réseau simplifiée et une gestion des alertes par dialogue intuitif.",
+        "slug": "network-chatbot",
+        "tags": [
+          "IA",
+          "Automatisation",
+          "Monitoring Réseau"
+        ]
+      },
+      {
+        "title": "Contrôle d'Accès Réseau Sécurisé",
+        "description": "Ingénierie d'un système de contrôle d'accès robuste utilisant l'authentification AAA (Freeradius) et 802.1X. Cette solution offre un contrôle granulaire, une vérification stricte des utilisateurs et une journalisation complète des accès pour les réseaux d'entreprise.",
+        "slug": "secure-access-control",
+        "tags": [
+          "Sécurité",
+          "Contrôle d'Accès",
+          "Serveur Linux"
+        ]
+      },
+      {
+        "title": "Déploiement Exchange Server SE",
+        "description": "Participation au déploiement d'un serveur de messagerie Exchange Server Subscription Edition (SE) au sein d'une infrastructure d'entreprise.",
+        "slug": "exchange-deployment",
+        "tags": [
+          "Exchange Server",
+          "Réseau",
+          "Windows Server",
+          "Support IT"
+        ]
+      },
+      {
+        "title": "TrustAI Shield - Détection IA de Fraude & Deepfake",
+        "description": "Une plateforme intelligente qui analyse les profils sociaux, les messages et les médias pour détecter les arnaques, les deepfakes et les faux profils avec une précision de 98 %.",
+        "slug": "trust-ai",
+        "tags": [
+          "IA",
+          "Cybersécurité",
+          "Détection de Fraude",
+          "Next.js"
+        ]
+      },
+      {
+        "title": "MatrixConnect - Infrastructure Télécom & Assistant IA",
+        "description": "Un opérateur télécom haut de gamme proposant des solutions de connectivité sécurisée (MPLS, SD-WAN) avec un chatbot IA intégré.",
+        "slug": "matrix-connect",
+        "tags": [
+          "Télécom",
+          "SD-WAN",
+          "Réseau",
+          "IA",
+          "MPLS"
+        ]
+      },
+      {
+        "title": "Déploiement de GLPI - Gestion des Services IT (ITSM)",
+        "description": "Déploiement de GLPI pour centraliser la gestion du parc informatique, automatiser les workflows de support et s'aligner sur les standards ITIL.",
+        "slug": "glpi-deployment",
+        "tags": [
+          "ITSM",
+          "GLPI",
+          "Gestion de Parc",
+          "ITIL",
+          "Open Source"
+        ]
+      },
+      {
+        "title": "BUSNESCO BI - Plateforme de Business Intelligence",
+        "description": "Une plateforme BI moderne conçue pour les PME afin de piloter leur performance via des tableaux de bord KPI centralisés et visuels.",
+        "slug": "busnesco-bi",
+        "tags": [
+          "BI",
+          "Visualisation de Données",
+          "KPI",
+          "Analytique",
+          "Tableaux de bord"
+        ]
+      }
+    ]
+  },
+  "ProjectDetails": {
+    "busnesco-bi": {
+      "title": "BUSNESCO BI : Plateforme de Business Intelligence",
+      "subtitle": "Transformer les données brutes en insights actionnables via des tableaux de bord clairs, dynamiques et en temps réel.",
+      "tags": [
+        "BI",
+        "Business Intelligence",
+        "KPI",
+        "Visualisation de Données",
+        "Dashboards",
+        "Analytique"
+      ],
+      "liveUrl": "https://kpi-busnesco.vercel.app/",
+      "visitSite": "Visiter le site",
+      "about": {
+        "title": "À propos du projet",
+        "description": "BUSNESCO BI est une plateforme de Business Intelligence (BI) moderne et intuitive, conçue pour aider les entreprises à piloter leur performance grâce à une gestion centralisée et visuelle de leurs indicateurs clés de performance (KPI)."
+      },
+      "features": {
+        "title": "Fonctionnalités Clés",
+        "list": [
+          "Tableaux de bord personnalisables : Vues adaptées à chaque service (Commercial, Finance, RH, etc.).",
+          "Suivi en temps réel : Mise à jour des KPI en direct avec alertes et notifications.",
+          "Visualisations avancées : Graphiques interactifs, gauges, heatmaps et courbes de tendance.",
+          "Connectivité multi-sources : Intégration avec ERP, CRM, Google Sheets et APIs.",
+          "Rapports automatisés : Génération et export de rapports professionnels en un clic.",
+          "Interface responsive : Design mobile-first pour un accès sur tous les supports."
+        ]
+      },
+      "tech": {
+        "title": "Positionnement Stratégique",
+        "description": "La solution met l’accent sur la simplicité et l’accessibilité pour démocratiser l’usage de la BI, remplaçant les fichiers Excel statiques par un outil collaboratif puissant."
+      }
+    },
+    "glpi-deployment": {
+      "title": "Déploiement de GLPI : Gestion des Services IT (ITSM)",
+      "subtitle": "Centralisation et optimisation de la gestion des services informatiques via une solution open source robuste et alignée sur ITIL.",
+      "tags": [
+        "ITSM",
+        "GLPI",
+        "Gestion de Parc",
+        "ITIL",
+        "Helpdesk",
+        "CMDB"
+      ],
+      "liveUrl": "",
+      "visitSite": "Déploiement Interne",
+      "about": {
+        "title": "À propos du projet",
+        "description": "Dans le cadre de la modernisation de son système d’information, une entreprise privée a déployé GLPI pour centraliser son inventaire matériel et logiciel, structurer le traitement des demandes utilisateurs et améliorer la qualité globale du support IT."
+      },
+      "features": {
+        "title": "Fonctionnalités Clés & Déploiement",
+        "list": [
+          "Gestion d’Actifs (Inventory & CMDB) : Inventaire complet et suivi du cycle de vie des équipements matériels et logiciels.",
+          "Service Desk & Helpdesk : Système de ticketing avancé avec règles d’affectation automatique, SLAs et escalades.",
+          "Portail Libre-Service : Portail dédié aux utilisateurs pour la création et le suivi de leurs demandes en temps réel.",
+          "Gestion des Connaissances : Base de connaissances centralisée pour capitaliser sur les solutions aux problèmes récurrents.",
+          "Reporting & Pilotage : Tableaux de bord personnalisés offrant des indicateurs de performance (KPI) détaillés."
+        ]
+      },
+      "tech": {
+        "title": "Aspects Techniques",
+        "description": "Installation sur serveur interne (on-premise) avec sécurisation des accès, intégration avec Active Directory/LDAP et configuration de plugins spécialisés comme GLPI Inventory."
+      }
+    },
+    "matrix-connect": {
+      "title": "MatrixConnect : Infrastructure Télécom & Assistant IA",
+      "subtitle": "Un partenaire stratégique pour la transformation numérique, offrant des solutions de connectivité et de sécurité haut de gamme avec un chatbot IA intégré.",
+      "tags": [
+        "Télécom",
+        "SD-WAN",
+        "Réseau",
+        "IA",
+        "MPLS",
+        "Cybersécurité",
+        "MSSP"
+      ],
+      "liveUrl": "https://sites-web-eta.vercel.app/",
+      "visitSite": "Visiter le site",
+      "about": {
+        "title": "À propos du projet",
+        "description": "MatrixConnect est un opérateur d’infrastructures de télécommunications spécialisé dans les solutions de connectivité haut de gamme et sécurisée pour les entreprises. Le projet vise à positionner l'entreprise comme un acteur clé de la transformation numérique grâce à un socle réseau robuste associé à des outils d'interaction modernes."
+      },
+      "features": {
+        "title": "Solutions Clés & Innovation",
+        "list": [
+          "Connectivité Très Haut Débit : Accès internet ultra-rapide basé sur un réseau de fibre optique de pointe.",
+          "Interconnexion Globale (MPLS) : Réseau privé sécurisé reliant l’ensemble des sites avec une excellente qualité de service.",
+          "SD-WAN : Solution intelligente optimisant les performances des applications tout en simplifiant la gestion du réseau.",
+          "Sécurité Managée (MSSP) : Surveillance proactive 24/7 par un SOC et protection contre les menaces.",
+          "Innovation Chatbot IA : Un assistant virtuel intelligent disponible 24/7 pour répondre aux questions des clients en langage naturel."
+        ]
+      },
+      "tech": {
+        "title": "Valeur Ajoutée",
+        "description": "MatrixConnect se distingue par son infrastructure de dernière génération et son approche globale alliant performance, agilité et sécurité, tout en facilitant l'accès à l'information via l'IA."
+      }
+    },
+    "trust-ai": {
+      "title": "TrustAI Shield : Détection IA de Fraude & Deepfake",
+      "subtitle": "TrustAI Shield est votre gardien intelligent contre la cybercriminalité du 21ème siècle. En quelques secondes, notre IA analyse n'importe quel profil social, message suspect ou contenu multimédia pour détecter les arnaques, deepfakes et faux profils avec 98% de précision.",
+      "tags": [
+        "IA",
+        "Cybersécurité",
+        "Next.js",
+        "Détection de Fraude",
+        "Détection de Deepfake",
+        "Zod",
+        "ShadCN UI",
+        "Tailwind CSS"
+      ],
+      "liveUrl": "https://trust-ai-eight.vercel.app/",
+      "visitSite": "Visiter le site",
+      "about": {
+        "title": "À propos du projet : Le Problème, Une Épidémie Silencieuse",
+        "description": "Chaque jour, des millions de personnes à travers le monde sont ciblées par des cybercriminels de plus en plus sophistiqués. Avec 60% des cyberattaques qui commencent par du phishing et les deepfakes permettant de voler des millions d'euros, la menace est réelle et croissante. TrustAI Shield est une plateforme intelligente tout-en-un qui démocratise la protection contre la cybercriminalité, la rendant accessible à tous."
+      },
+      "features": {
+        "title": "Fonctionnalités Clés : 3 Modules Complémentaires",
+        "list": [
+          "Analyse de Profil : Analyse complète de profils sociaux (Instagram, Facebook, LinkedIn, Twitter). Calcule un TrustScore basé sur plus de 15 indicateurs comportementaux.",
+          "Détection d'Arnaques : Analyse en temps réel de textes et d'URL suspects. Identifie le phishing, les arnaques à l'avance de frais et les crypto-escroqueries.",
+          "Détection de Deepfake : Vérifie l'authenticité des photos et des vidéos. Détecte les manipulations par IA générative."
+        ]
+      },
+      "tech": {
+        "title": "Notre Différenciateur : Accessibilité + Précision",
+        "description": "TrustAI Shield a été conçu avec une interface intuitive ne nécessitant aucune formation technique, fournissant des résultats en moins de 10 secondes. Validé sur plus de 10 000 cas réels, avec une extrême précision et est multilingue (FR, EN)."
+      }
+    },
+    "traffic-analysis": {
+      "title": "Système d'analyse du trafic routier par IA",
+      "subtitle": "Une solution intelligente pour transformer une scène de circulation en tableau de bord exploitable, visant à réduire les accidents et la corruption.",
+      "tags": [
+        "IA",
+        "Computer Vision",
+        "YOLO",
+        "OpenCV",
+        "Sécurité Routière",
+        "Python"
+      ],
+      "liveUrl": "https://www.linkedin.com/posts/leonelawouma_computervision-intelligenceartificielle-deeplearning-activity-7412767377655914496-w7FD?utm_source=social_share_video_v2&utm_medium=android_app&rcm=ACoAABoZi6kBBLlJoFDisK8gouUMxt3m--oxRJw&utm_campaign=copy_link&lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BUcCHjPfjQ8WMFE96hZtUvQ%3D%3D",
+      "visitSite": "Publié par Sat Magazine",
+      "about": {
+        "title": "À propos du projet",
+        "description": "Face à l'augmentation alarmante des accidents de la route au Cameroun, ce projet utilise l'IA pour fournir des données précises aux autorités. L'objectif est de passer d'un pilotage 'au ressenti' à une prise de décision éclairée par des instruments de mesure précis à l'échelle des carrefours et des tronçons critiques."
+      },
+      "features": {
+        "title": "Fonctionnalités & Impact",
+        "list": [
+          "Détection et classification en temps réel (voitures, motos, bus, camions) via YOLO.",
+          "Suivi multi-objets pour reconstruire les trajectoires et identifier chaque véhicule de manière unique.",
+          "Mesure précise de la vitesse (km/h) par calibration de la scène et calculs NumPy.",
+          "Détection automatique des infractions (excès de vitesse au-delà de 60 km/h).",
+          "Génération de rapports structurés (CSV) pour l'aide à la décision municipale ou gouvernementale.",
+          "Potentiel de paiement digital des amendes pour éradiquer la corruption routière."
+        ]
+      },
+      "tech": {
+        "title": "Architecture Technique",
+        "description": "Développé pour fonctionner sur du matériel standard (Core i5), le système combine YOLO pour la détection rapide, OpenCV pour le traitement des flux vidéo, et NumPy pour les calculs physiques. Cette approche démontre qu'une souveraineté technologique locale est possible avec des outils ouverts pour répondre aux défis nationaux de sécurité routière."
+      }
+    },
+    "network-chatbot": {
+      "title": "L'Amélioration de l'Expérience Utilisateur dans le Monitoring Réseau grâce à l'IA",
+      "subtitle": "Une approche AIOps transformant l'interaction complexe avec Zabbix en un dialogue simple et intuitif via WhatsApp.",
+      "tags": [
+        "IA",
+        "Automatisation",
+        "Monitoring Réseau",
+        "Zabbix",
+        "WhatsApp",
+        "AIOps"
+      ],
+      "liveUrl": "",
+      "visitSite": "Voir sur GitHub",
+      "about": {
+        "title": "À propos du projet : Simplifier les opérations réseau",
+        "description": "La solution proposée vise spécifiquement l'amélioration de l'expérience administrateur dans le monitoring réseau grâce à l'Intelligence Artificielle (IA). Elle représente une approche d'AIOps (Intelligence Artificielle pour les Opérations IT), transformant l'interaction complexe avec le système de supervision existant (Zabbix) en un dialogue simple, intuitif et efficace via WhatsApp."
+      },
+      "features": {
+        "title": "Fonctionnalités IA et Automatisation",
+        "list": [
+          "Interface Conversationnelle WhatsApp : Permet aux utilisateurs d’accéder aux informations de monitoring via une interface WhatsApp intuitive, offrant un accès en temps réel aux métriques réseau en mobilité.",
+          "Authentification Sécurisée : L'accès aux commandes sécurisées de Zabbix est conditionné par une authentification via le chatbot. Le système se bloque temporairement après 3 tentatives incorrectes.",
+          "Analyse en Langage Naturel (`!zabbix analyze`) : Fournit un résumé en langage naturel des performances, identifie les problèmes prioritaires et propose des recommandations en utilisant l'API Gemini pour interpréter les données brutes de Zabbix.",
+          "Prévention des Pannes (`!zabbix predict`) : Estime le risque d’incident pour un hôte en se basant sur ses métriques (RAM, CPU, ROM) grâce à l'algorithme de machine learning Random Forest.",
+          "Génération Automatique de Tickets : Le workflow automatise la création de tickets de support via l’API de GLPI dès qu'un incident technique est détecté par Zabbix.",
+          "Notifications Enrichies : Les alertes WhatsApp sont détaillées, incluant l'ID du ticket GLPI, un lien direct, le nom de l'hôte, la description du problème, et une analyse avec des recommandations de solutions fournies par l'IA."
+        ]
+      },
+      "tech": {
+        "title": "Implémentation Technique",
+        "description": "La solution est construite sur une pile technologique multi-couches : Zabbix pour le monitoring, WhatsApp comme interface, n8n comme moteur d'automatisation, le modèle de langage Gemini pour l'interprétation, et GLPI pour la gestion des incidents. Cette approche transforme la surveillance réactive en une supervision proactive et intelligente, réduisant drastiquement les temps de résolution des incidents (MTTR)."
+      }
+    },
+    "secure-access-control": {
+      "title": "Système de Contrôle d'Accès Réseau Robuste",
+      "subtitle": "Une solution de sécurité complète conçue pour protéger les réseaux d'entreprise en mettant en œuvre un contrôle d'accès granulaire basé sur l'identité et les rôles des utilisateurs.",
+      "tags": [
+        "Sécurité Réseau",
+        "AAA",
+        "Freeradius",
+        "802.1X",
+        "Linux"
+      ],
+      "liveUrl": "",
+      "visitSite": "Voir sur GitHub",
+      "about": {
+        "title": "À propos du projet : Renforcer la Première Ligne de Défense",
+        "description": "Dans tout environnement d'entreprise, contrôler qui peut accéder au réseau est la première et la plus critique des lignes de défense. Ce projet a consisté à concevoir un système de contrôle d'accès robuste et évolutif, allant au-delà de la simple protection par mot de passe pour un modèle de sécurité sophistiqué basé sur l'identité."
+      },
+      "features": {
+        "title": "Fonctionnalités Clés",
+        "list": [
+          "Framework AAA : Utilise le framework complet d'Authentification, Autorisation et Comptabilité (AAA) avec Freeradius sur un serveur Linux pour gérer l'accès au réseau.",
+          "Authentification 802.1X Basée sur les Ports : Met en œuvre la norme IEEE 802.1X pour garantir que seuls les appareils authentifiés et autorisés peuvent se connecter aux ports du réseau (filaires et sans fil).",
+          "Contrôle d'Accès Basé sur les Rôles (RBAC) : Attribue des règles d'accès spécifiques et des segments de réseau (VLAN) aux utilisateurs en fonction de leur rôle dans l'organisation, garantissant le principe du moindre privilège.",
+          "Journalisation Complète des Accès : Toutes les tentatives d'accès, réussies ou échouées, sont journalisées, fournissant une piste d'audit claire et vérifiable pour l'analyse de sécurité et la conformité."
+        ]
+      },
+      "tech": {
+        "title": "Implémentation Technique",
+        "description": "Le système est centré autour d'un serveur Freeradius fonctionnant sur une distribution Linux durcie. Il s'intègre à l'infrastructure réseau existante, y compris les commutateurs et routeurs Cisco, pour appliquer les politiques d'accès. La configuration permet une grande évolutivité et peut être adaptée pour prendre en charge diverses méthodes d'authentification et services d'annuaire comme LDAP ou Active Directory."
+      }
+    },
+    "exchange-deployment": {
+      "title": "Déploiement Exchange Server SE",
+      "subtitle": "Déploiement d'un serveur de messagerie Exchange Server Subscription Edition au sein d'une infrastructure d'entreprise.",
+      "tags": [
+        "Exchange Server",
+        "Réseau",
+        "Windows Server",
+        "Support IT",
+        "Infrastructure"
+      ],
+      "liveUrl": "",
+      "visitSite": "Voir la Documentation",
+      "about": {
+        "title": "À propos du projet",
+        "description": "Ce projet a consisté en le déploiement et la configuration d'Exchange Server Subscription Edition (SE) pour fournir des services de messagerie sécurisés et fiables à l'organisation."
+      },
+      "features": {
+        "title": "Fonctionnalités Clés",
+        "list": [
+          "Installation et configuration d'Exchange Server SE",
+          "Fourniture d'un support technique N1/N2 aux employés sur site et à distance",
+          "Gestion et priorisation des incidents via l'outil de ticketing Odoo",
+          "Administration des comptes utilisateurs : création, modification, réinitialisation d'accès",
+          "Installation et configuration des postes de travail"
+        ]
+      },
+      "tech": {
+        "title": "Implémentation Technique",
+        "description": "Le déploiement a utilisé Windows Server comme système d'exploitation de base, avec Exchange Server SE pour les services de messagerie. L'intégration avec Microsoft 365 et Teams a été mise en œuvre pour améliorer la collaboration."
+      }
+    }
+  },
+  "Community": {
+    "title": "Expérience Volontaire",
+    "activities": [
+      {
+        "text": "Participation au séminaire de formation SNK AI Challenge 2025 - Former 100 jeunes (20 par région)",
+        "icon": "Award"
+      },
+      {
+        "text": "Responsable de la formation au Club Réseau (2024–2025) - IAI Cameroun",
+        "icon": "Presentation"
+      },
+      {
+        "text": "Séminaire de formation sur l'Intelligence Artificielle (Juin 2024) - Ambassade d'Espagne au Cameroun, en partenariat avec l'Ambassade d'Espagne au Cameroun",
+        "icon": "Users"
+      }
+    ]
+  },
+  "Interests": {
+    "title": "Centres d'intérêt",
+    "list": [
+      "CTF (Root-Me, TryHackMe, CyberDefenders)",
+      "Veille en cybersécurité",
+      "Webinaires sur la sécurité",
+      "Rédacteur sur Medium",
+      "Voyages",
+      "Musique",
+      "Google Dev Fest 2025"
+    ]
+  },
+  "Contact": {
+    "title": "Contactez-moi",
+    "description": "Vous avez une question ou souhaitez collaborer ? Envoyez-moi un message.",
+    "socialTitle": "Retrouvez-moi sur les réseaux sociaux"
+  },
+  "ContactForm": {
+    "name": {
+      "label": "Nom",
+      "placeholder": "Votre Nom"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "votre.email@example.com"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Dites-moi comment je peux vous aider"
+    },
+    "sending": "Envoi en cours...",
+    "sendMessage": "Envoyer le Message",
+    "toast": {
+      "success": {
+        "title": "Message Envoyé !",
+        "description": "Merci de m'avoir contacté ! Je vous répondrai dès que possible."
+      },
+      "error": {
+        "title": "Oups ! Quelque chose s'est mal passé.",
+        "description": "Un problème est survenu avec votre requête."
+      }
+    }
+  },
+  "Footer": {
+    "rights": "Tous droits réservés."
+  }
+}

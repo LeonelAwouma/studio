@@ -1,0 +1,58 @@
+{
+  "placeholderImages": [
+    {
+      "id": "profile",
+      "description": "A professional headshot of Leonel Awouma",
+      "imageUrl": "/Leonel.jpg",
+      "imageHint": "professional headshot"
+    },
+    {
+      "id": "project-1",
+      "description": "An AI-powered dashboard showing real-time road traffic analysis and object detection.",
+      "imageUrl": "/traffic.png",
+      "imageHint": "road traffic analysis system"
+    },
+    {
+      "id": "project-2",
+      "description": "AI-Powered Network Chatbot interface for monitoring and automation.",
+      "imageUrl": "/monitoring.jpg",
+      "imageHint": "network monitoring AI chatbot"
+    },
+    {
+      "id": "project-3",
+      "description": "A diagram showing secure network access control points",
+      "imageUrl": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuZXR3b3JrJTIwc2VjdXJpdHl8ZW58MHx8fHwxNzYxNDg4OTI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "network security"
+    },
+    {
+      "id": "project-4",
+      "description": "A secure corporate mail server infrastructure illustration.",
+      "imageUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBzZXJ2ZXJ8ZW58MHx8fHwxNzYxNDg4OTI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "corporate mail server"
+    },
+    {
+      "id": "project-5",
+      "description": "An abstract illustration of AI detecting digital fraud and cyber scams.",
+      "imageUrl": "/scam.jpg",
+      "imageHint": "cybersecurity fraud detection"
+    },
+    {
+      "id": "project-6",
+      "description": "MatrixConnect website cover showing Connectivity and AI solutions.",
+      "imageUrl": "/matrix-connect.png",
+      "imageHint": "matrix-connect website screenshot"
+    },
+    {
+      "id": "project-7",
+      "description": "GLPI Dashboard visualization for IT asset management and helpdesk.",
+      "imageUrl": "/glpi.png",
+      "imageHint": "glpi dashboard itsm"
+    },
+    {
+      "id": "project-8",
+      "description": "BUSNESCO BI Dashboard showing real-time KPIs and performance analytics.",
+      "imageUrl": "/bunesco.png",
+      "imageHint": "busnesco bi dashboard"
+    }
+  ]
+}
