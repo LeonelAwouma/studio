@@ -286,7 +286,7 @@
         ]
       },
       {
-        "title": "BUSNESCO BI - Plateforme de Business Intelligence",
+        "title": "Plateforme de Business Intelligence",
         "description": "Une plateforme BI moderne conçue pour les PME afin de piloter leur performance via des tableaux de bord KPI centralisés et visuels.",
         "slug": "busnesco-bi",
         "tags": [
@@ -301,7 +301,7 @@
   },
   "ProjectDetails": {
     "busnesco-bi": {
-      "title": "BUSNESCO BI : Plateforme de Business Intelligence",
+      "title": "Plateforme de Business Intelligence",
       "subtitle": "Transformer les données brutes en insights actionnables via des tableaux de bord clairs, dynamiques et en temps réel.",
       "tags": [
         "BI",
