@@ -21,11 +21,11 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         <About />
         <Skills />
         <Certifications />
-        {/* <Experience /> */}
-        {/* <Education /> */}
-        {/* <Community /> */}
-        {/* <Interests /> */}
-        {/* <Contact /> */}
+        <Experience />
+        <Education />
+        <Community />
+        <Interests />
+        <Contact />
       </main>
       <Footer />
     </div>
