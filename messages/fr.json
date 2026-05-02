@@ -620,5 +620,40 @@
   },
   "Footer": {
     "rights": "Tous droits réservés."
+  },
+  "Design": {
+    "eyebrow": "Visualisation de Données & Ingénierie Créative",
+    "title": "Systèmes, Visualisés.",
+    "description": "Chaque simulation illustre un concept clé de l'ingénierie réseau — trafic, topologie, propagation, convergence.",
+    "backLink": "Retour au Portfolio",
+    "loading": "Initialisation de la simulation...",
+    "hint": "Utilisez ← → pour explorer",
+    "cta": {
+      "text": "Curieux de connaître la technologie derrière ces simulations ?",
+      "projects": "Voir mes projets →",
+      "contact": "Contactez-moi →"
+    },
+    "modes": {
+      "analyze": {
+        "name": "Analyse",
+        "subtitle": "Flux de trafic réseau",
+        "description": "Visualisation du traitement et de l'interprétation des données cartographiant le trafic réseau, la topologie et la propagation."
+      },
+      "structure": {
+        "name": "Structure",
+        "subtitle": "Topologie d'infrastructure",
+        "description": "Cartographie de volume architectural représentant l'infrastructure rigide et les hiérarchies de systèmes."
+      },
+      "expansion": {
+        "name": "Expansion",
+        "subtitle": "Propagation d'incidents",
+        "description": "Dispersion chaotique vers l'extérieur simulant la propagation de menaces et d'incidents sur un réseau."
+      },
+      "focus": {
+        "name": "Focus",
+        "subtitle": "Convergence de données",
+        "description": "Visualisation de la convergence hiérarchique des données et de l'optimisation des performances."
+      }
+    }
   }
 }

@@ -467,6 +467,41 @@
   },
   "Footer": {
     "rights": "All rights reserved."
+  },
+  "Design": {
+    "eyebrow": "Data Visualisation & Creative Engineering",
+    "title": "Systems, Visualized.",
+    "description": "Each simulation maps a core concept from network engineering — traffic, topology, propagation, convergence.",
+    "backLink": "Back to Portfolio",
+    "loading": "Initializing simulation...",
+    "hint": "Use ← → to explore",
+    "cta": {
+      "text": "Curious about the tech behind these simulations?",
+      "projects": "See my projects →",
+      "contact": "Contact me →"
+    },
+    "modes": {
+      "analyze": {
+        "name": "Analyze",
+        "subtitle": "Network traffic flow",
+        "description": "Data processing & interpretation visualization mapping network traffic, topology, and propagation."
+      },
+      "structure": {
+        "name": "Structure",
+        "subtitle": "Infrastructure topology",
+        "description": "Architectural volume mapping representing rigid infrastructure and system hierarchies."
+      },
+      "expansion": {
+        "name": "Expansion",
+        "subtitle": "Incident propagation",
+        "description": "Chaotic outward dispersion simulating threat spread and incident propagation across a network."
+      },
+      "focus": {
+        "name": "Focus",
+        "subtitle": "Data convergence",
+        "description": "Hierarchical data convergence and performance optimization visualization."
+      }
+    }
   }
 }
 

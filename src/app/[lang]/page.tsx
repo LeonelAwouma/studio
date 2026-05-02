@@ -9,6 +9,7 @@ import Community from '@/components/Community';
 import Interests from '@/components/Interests';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import MotionSection from '@/components/MotionSection';
 
 export default async function Home({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
@@ -18,14 +19,30 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
       <Header />
       <main className="flex-grow">
         <Hero />
-        <About />
-        <Skills />
-        <Certifications />
-        <Experience />
-        <Education />
-        <Community />
-        <Interests />
-        <Contact />
+        <MotionSection id="about">
+          <About />
+        </MotionSection>
+        <MotionSection id="skills">
+          <Skills />
+        </MotionSection>
+        <MotionSection id="certifications">
+          <Certifications />
+        </MotionSection>
+        <MotionSection id="experience">
+          <Experience />
+        </MotionSection>
+        <MotionSection id="education">
+          <Education />
+        </MotionSection>
+        <MotionSection id="community">
+          <Community />
+        </MotionSection>
+        <MotionSection id="interests">
+          <Interests />
+        </MotionSection>
+        <MotionSection id="contact">
+          <Contact />
+        </MotionSection>
       </main>
       <Footer />
     </div>

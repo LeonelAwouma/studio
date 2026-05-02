@@ -3,6 +3,40 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --background: 240 10% 3.9%; /* Rich Black */
+    --foreground: 0 0% 98%;
+
+    --card: 240 10% 6%;
+    --card-foreground: 0 0% 98%;
+ 
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+ 
+    --primary: 199 89% 61%; /* Cyber Cyan */
+    --primary-foreground: 0 0% 9%;
+ 
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+ 
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+ 
+    --accent: 263 70% 50%; /* Electric Purple */
+    --accent-foreground: 0 0% 98%;
+ 
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 199 89% 61%;
+ 
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
   html {
     @apply scroll-smooth;
   }
@@ -21,7 +55,7 @@
   }
 
   .animated-gradient-text {
-    @apply text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-400 font-bold;
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 font-bold;
     background-size: 200% auto;
     animation: textGradient 5s linear infinite;
   }
@@ -33,57 +67,52 @@
   }
   
   .glass {
-    @apply bg-white/5 backdrop-blur-md border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.36)];
+    @apply bg-background/60 backdrop-blur-md border border-white/5 shadow-[0_8px_32px_0_rgba(0,0,0,0.8)];
   }
 
   .glass-card {
-    @apply bg-card/40 backdrop-blur-xl border border-white/5 shadow-2xl transition-all duration-500 hover:bg-card/60 hover:border-primary/30 hover:shadow-primary/10;
+    @apply bg-card/40 backdrop-blur-xl border border-white/5 shadow-2xl transition-all duration-500 hover:bg-card/60 hover:border-primary/30 hover:shadow-primary/5;
   }
 
   .glow-shadow {
-    box-shadow: 0 0 30px hsl(var(--primary) / 0.15), 0 0 60px hsl(var(--accent) / 0.1);
+    box-shadow: 0 0 20px hsl(var(--primary) / 0.1), 0 0 40px hsl(var(--accent) / 0.05);
   }
-}
 
-@layer base {
-  :root {
-    --background: 222 47% 11%; /* Deep Navy */
-    --foreground: 210 40% 98%;
+  .bg-design {
+    background-color: #080c12;
+  }
 
-    --card: 222 47% 13%;
-    --card-foreground: 210 40% 98%;
- 
-    --popover: 222 47% 11%;
-    --popover-foreground: 210 40% 98%;
- 
-    --primary: 217 91% 60%; /* Electric Blue */
-    --primary-foreground: 210 40% 98%;
- 
-    --secondary: 215 28% 17%;
-    --secondary-foreground: 210 40% 98%;
- 
-    --muted: 215 28% 17%;
-    --muted-foreground: 215 20% 65%;
- 
-    --accent: 262 83% 58%; /* Purple */
-    --accent-foreground: 210 40% 98%;
- 
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 98%;
+  .cyber-grid {
+    background-image: linear-gradient(to right, hsl(var(--border) / 0.2) 1px, transparent 1px),
+                      linear-gradient(to bottom, hsl(var(--border) / 0.2) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
 
-    --border: 217 33% 20%;
-    --input: 217 33% 20%;
-    --ring: 217 91% 60%;
- 
-    --radius: 1rem;
+  .cyber-glow-primary {
+    @apply shadow-[0_0_15px_rgba(34,211,238,0.4)];
+  }
+
+  .cyber-glow-accent {
+    @apply shadow-[0_0_15px_rgba(168,85,247,0.4)];
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted-foreground/20 rounded-full hover:bg-primary/50 transition-colors;
   }
 }
 
 /* Custom radial gradients for background */
 .bg-mesh {
   background-image: 
-    radial-gradient(at 0% 0%, hsla(217, 91%, 60%, 0.15) 0px, transparent 50%),
-    radial-gradient(at 100% 0%, hsla(262, 83%, 58%, 0.15) 0px, transparent 50%),
-    radial-gradient(at 100% 100%, hsla(217, 91%, 60%, 0.1) 0px, transparent 50%),
-    radial-gradient(at 0% 100%, hsla(262, 83%, 58%, 0.1) 0px, transparent 50%);
+    radial-gradient(at 0% 0%, hsla(199, 89%, 61%, 0.1) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(263, 70%, 50%, 0.1) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, hsla(199, 89%, 61%, 0.08) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(263, 70%, 50%, 0.08) 0px, transparent 50%);
 }
